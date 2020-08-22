@@ -1,5 +1,7 @@
 # personalsitev2
-I created the design for my website this time and now I'm going to build a revamped version of it, this time using React!
+Hi welcome to the code repo for my site!! 
+I created the design for my website this time and now I'm going to build a revamped version of it, this time using React! High fidelity mockups were created using Adobe Xd. I will be updating this README as I'm working on the site :-) 
+
 
 <h1> Technologies Used: </h1>
 <br/>
@@ -24,8 +26,18 @@ I created the design for my website this time and now I'm going to build a revam
   </li> 
   </ul>
 
+<h3> Additional Tools, Libraries, & Packages </h3>
+<br/>
+<ul>
+  <li>
+    react-router-dom
+  </li>
+
+  </ul>
+  
 <br/>
 <h1> Backlog </h1>
 <ul>
   <li> SCSS </li>
+  <li> Ant Design component library for icons </li>
   </ul>
