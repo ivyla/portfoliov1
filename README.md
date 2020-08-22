@@ -1,6 +1,6 @@
 # personalsitev2
 Hi welcome to the code repo for my site!! 
-I created the design for my website this time and now I'm going to build a revamped version of it, this time using React! High fidelity mockups were created using Adobe Xd. I will be updating this README as I'm working on the site :-) 
+I created the design for my website this time and now I'm going to build a revamped version of it, this time using React! High fidelity mockups were created using Adobe Xd. I like writing documentation and keeping my codebases fairy organized so I will be updating this README as I'm working on the site :-) 
 
 
 <h1> Technologies Used: </h1>
@@ -10,10 +10,7 @@ I created the design for my website this time and now I'm going to build a revam
   <li> Javascript </li>
   <li> React </h1> 
   </ul>
--HTML, CSS
--Javascript
--React 
--SCSS
+
 
 <h1> Development environment </h1>
 <br/>
