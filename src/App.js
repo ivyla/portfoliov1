@@ -12,39 +12,48 @@ import {
   Link
 } from "react-router-dom";
 
+const navItem = {
+  textDecoration: 'none',
+  paddingLeft: '30px',
+  paddingRight: '30px'
+}
+
 function App() {
   return (
     <div className="App">
-      <Router>
-        {/* <header> */}
-        <Link to="/home">
-          home
+      <nav>
+        <Router>
+          {/* <header> */}
+          <Link style={navItem} to="/home">
+            home
           </Link>
-        <Link to="/about">
-          about
+          <Link style={navItem} to="/about">
+            about
           </Link>
-        <Link to="/projects">
-          projects
+          <Link style={navItem} to="/projects">
+            projects
           </Link>
-        <Link to="/experience">
-          experience
+          <Link style={navItem} to="/experience">
+            experience
           </Link>
-        {/* </header> */}
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/experience">
-            <Experience />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </Router>
+          {/* </header> */}
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/experience">
+              <Experience />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
+
+      </nav>
     </div >
   );
 }

@@ -1,4 +1,5 @@
 import React from "react"
+import "../stylesheets/Theme.css"
 
 function Projects() {
     return (
