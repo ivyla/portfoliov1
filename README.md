@@ -30,6 +30,9 @@ I created the design for my website this time and now I'm going to build a revam
     react-router-dom
   </li>
 
+  <li>
+    Google Fonts
+  </li>
   </ul>
   
 <br/>
