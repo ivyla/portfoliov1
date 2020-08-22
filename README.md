@@ -23,7 +23,7 @@ I created the design for my website this time and now I'm going to build a revam
   </li> 
   </ul>
 
-<h3> Additional Tools, Libraries, & Packages </h3>
+<h1> *Additional Tools, Libraries, & Packages </h1>
 <br/>
 <ul>
   <li>
