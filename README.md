@@ -9,6 +9,11 @@ Technologies Used:
 
 Development environment
 <br/>
--Git
+<ul>
+  <li>
+    Git
+  </li>
 -VS Code
 -Gitbash
+
+  </ul>
