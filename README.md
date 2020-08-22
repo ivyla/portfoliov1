@@ -1,6 +1,9 @@
 # personalsitev2
-Hi welcome to the code repo for my site!! 
-I created the design for my website this time and now I'm going to build a revamped version of it, this time using React! High fidelity mockups were created using Adobe Xd. I like writing documentation and keeping my codebases fairly organized so I will be updating this README as I'm working on the site :-) 
+Hi welcome to the code repo for my personal portfolio website!! 
+<br/>
+I designed the website in advance this and now I'm going to build it using react! (High fidelity created using Adobe Xd.) 
+<br/>
+I like writing documentation and keeping my codebases fairly organized so I will be updating this README as I'm working on the it :-) 
 
 
 <h1> Technologies Used: </h1>
