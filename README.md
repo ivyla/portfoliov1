@@ -8,6 +8,7 @@ Technologies Used:
 -SCSS
 
 Development environment
+<br/>
 -Git
 -VS Code
 -Gitbash
