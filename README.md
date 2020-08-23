@@ -43,4 +43,6 @@ I like writing documentation and keeping my codebases fairly organized so I will
 <ul>
   <li> SCSS </li>
   <li> Ant Design component library for icons </li>
+  <li> Animations </li>
+  <li> Toggle to pre-load animations </h1>
   </ul>
