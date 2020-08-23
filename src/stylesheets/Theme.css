@@ -1,22 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:black');
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic');
 
+/* Color Reference:
+Navbar (navy): #484874
+Header (pink): #F55379
+Description (dark grey): #888080
+
+Muted:
+Red: #FFBCCC
+Yellow: #FBE897
+Blue: #989BE6
+*/
 .nav {
-    color: green;
+    color: yellow;
 }
 
-h1 {
-    font-family: 'Playfair Display';
+.default-title {
+    font-family: 'Playfair-Display';
+    font-weight: 600;
+    font-size: 500%;
+    margin-bottom: 25px;
     color: black;
-
 }
 
-h3 {
+.default-header {
     font-family: 'Poppins';
-    color: green;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    color: #F55379;
 }
 
-p {
+.default-description {
     font-family: 'Poppins';
-    color: purple;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    color: #888080;
 }
