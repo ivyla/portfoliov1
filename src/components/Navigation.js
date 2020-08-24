@@ -4,18 +4,15 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    NavLink
 } from "react-router-dom";
 import Home from "./Home"
 import About from "./About"
 import Projects from "./Projects"
 import Experience from "./Experience"
-import { Navbar, Nav, NavItem } from 'react-bootstrap/Navbar'
-const navItem = {
-    textDecoration: 'none',
-    paddingLeft: '30px',
-    paddingRight: '30px'
-}
+import "../stylesheets/Navigation.css"
+import { Navbar, Nav, Container } from "react-bootstrap";
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 // Next time - work on getting a normal navbar to work, and then try to use it 
 // as a router
@@ -25,23 +22,23 @@ const navItem = {
 // https://github.com/react-bootstrap/react-router-bootstrap
 function Navigation() {
     return (
-        <div>
-            <Navbar bg="dark">
+        <div className="navbar">
+            <div className="navbar-content">
                 <nav>
                     <Router>
                         {/* <header> */}
-                        <Link style={navItem} to="/">
+                        <NavLink className="navItem" to="/">
                             home
-                    </Link>
-                        <Link style={navItem} to="/about">
+                    </NavLink>
+                        <NavLink className="navItem" to="/about">
                             about
-                    </Link>
-                        <Link style={navItem} to="/projects">
+                    </NavLink>
+                        <NavLink className="navItem" to="/projects">
                             projects
-                    </Link>
-                        <Link style={navItem} to="/experience">
+                    </NavLink>
+                        <NavLink className="navItem" to="/experience">
                             experience
-                    </Link>
+                    </NavLink>
                         {/* </header> */}
                         <Switch>
                             <Route path="/about">
@@ -58,11 +55,8 @@ function Navigation() {
                             </Route>
                         </Switch>
                     </Router>
-
                 </nav>
-
-            </Navbar>
-
+            </div>
         </div>
     )
 }

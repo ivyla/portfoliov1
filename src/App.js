@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/Navigation';
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
