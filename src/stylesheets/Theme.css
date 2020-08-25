@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:black');
-@import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic');
-
+/* Playfair Display */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap');
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap');
 /* Color Reference:
 Navbar (navy): #484874
 Header (pink): #F55379
@@ -11,28 +12,32 @@ Red: #FFBCCC
 Yellow: #FBE897
 Blue: #989BE6
 */
-.nav {
-    color: yellow;
-}
 
 .default-title {
     font-family: 'Playfair-Display';
-    font-weight: 600;
-    font-size: 500%;
-    margin-bottom: 25px;
+    font-weight: 900;
+    font-size: 440%;
+    margin: auto;
     color: black;
+    padding-top: 90px;
+    padding-bottom: 15px;
 }
 
 .default-header {
     font-family: 'Poppins';
-    margin-bottom: 25px;
+    margin-bottom: 13px;
     margin-top: 0px;
+    font-weight: 600;
     color: #F55379;
+    font-size: 180%;
+    padding-bottom: 15px;
 }
 
 .default-description {
     font-family: 'Poppins';
-    margin-bottom: 25px;
-    margin-top: 0px;
+    margin: auto;
+    width: 45%;
     color: #888080;
+    padding-bottom: 15px;
+    
 }

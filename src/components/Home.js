@@ -8,7 +8,7 @@ function Home() {
         <div className="wrapper">
             <div className="content-home">
                 <div>
-                    <h1 className="default-title"> Hi, I'm Ivy! </h1>
+                    <p className="default-title"> Hi, I'm Ivy. </p>
                 </div>
 
                 <div>
@@ -16,7 +16,7 @@ function Home() {
 
                 </div>
 
-                <div>
+                <div >
 
                     <p className="default-description">
                         Nam ut dui nec ligula sagittis pharetra et sit
@@ -26,7 +26,7 @@ function Home() {
                 pretium dolor at finibus. Morbi ultricies posue </p>
                 </div>
 
-                <div>
+                <div className="media-icons-container">
                     <a href="https://linkedin.com/in/ivyla" target="_blank" rel="noopener noreferrer">
                         <LinkedinFilled className="media-icons" id="linkedin-icon" />
                     </a>
