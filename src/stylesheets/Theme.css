@@ -13,6 +13,9 @@ Yellow: #FBE897
 Blue: #989BE6
 */
 
+body, html {
+    overflow-x: hidden;
+}
 .default-title {
     font-family: 'Playfair-Display';
     font-weight: 900;
