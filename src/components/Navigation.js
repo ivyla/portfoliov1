@@ -41,6 +41,7 @@ class Navigation extends React.Component {
         return (
             <div>
                 <Router>
+
                     {/* <div className="navbar"> */}
                     <div className={this.state.menuPressed ? "navbar-large" : "navbar"}>
                         {/* <div className="navbar-content"> */}
@@ -60,10 +61,15 @@ class Navigation extends React.Component {
                         </NavLink>
                         </div>
 
-                        <div className="hamburger-menu">
+                        <div className="hamburgermenu">
                             <a href="#" onClick={this.handleClick}>
-                                <MenuOutlined style={{ color: 'white', float: 'right' }} />
+                                <MenuOutlined style={{
+                                    color: 'white',
+                                    float: 'right',
+                                    fontSize: '20px'
+                                }} />
                             </a>
+
                         </div>
                     </div>
                     {/* </header> */}
