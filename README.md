@@ -43,7 +43,7 @@ I like writing documentation and keeping my codebases fairly organized so I will
 <br/>
 <h1> Backlog </h1>
 <ul>
-  <li> ~~ SCSS ~~</li>
+  <li> <strike> SCSS </strike> </li>
   <li> Animations </li>
   <li> Toggle to pre-load animations </h1>
   </ul>
