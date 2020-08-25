@@ -22,42 +22,40 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 // https://github.com/react-bootstrap/react-router-bootstrap
 function Navigation() {
     return (
-        <div className="navbar">
-            <div className="navbar-content">
-                <nav>
-                    <Router>
-                        {/* <header> */}
-                        <NavLink className="navItem" to="/">
-                            home
+        <Router>
+            <div className="navbar">
+                <div className="navbar-content">
+                    {/* <header> */}
+                    <NavLink className="navItem" to="/">
+                        home
                     </NavLink>
-                        <NavLink className="navItem" to="/about">
-                            about
+                    <NavLink className="navItem" to="/about">
+                        about
                     </NavLink>
-                        <NavLink className="navItem" to="/projects">
-                            projects
+                    <NavLink className="navItem" to="/projects">
+                        projects
                     </NavLink>
-                        <NavLink className="navItem" to="/experience">
-                            experience
+                    <NavLink className="navItem" to="/experience">
+                        experience
                     </NavLink>
-                        {/* </header> */}
-                        <Switch>
-                            <Route path="/about">
-                                <About />
-                            </Route>
-                            <Route path="/projects">
-                                <Projects />
-                            </Route>
-                            <Route path="/experience">
-                                <Experience />
-                            </Route>
-                            <Route path="/">
-                                <Home />
-                            </Route>
-                        </Switch>
-                    </Router>
-                </nav>
+                </div>
             </div>
-        </div>
+            {/* </header> */}
+            <Switch>
+                <Route path="/about">
+                    <About />
+                </Route>
+                <Route path="/projects">
+                    <Projects />
+                </Route>
+                <Route path="/experience">
+                    <Experience />
+                </Route>
+                <Route path="/">
+                    <Home />
+                </Route>
+            </Switch>
+        </Router>
     )
 }
 export default Navigation
