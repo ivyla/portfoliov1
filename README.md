@@ -1,11 +1,7 @@
 # personalsitev2
-Hi welcome to the code repo for my personal portfolio website!! 
-<br/>
-I designed the website in advance this and now I'm going to build it using react! (High fidelity created using Adobe Xd.) 
-<br/>
-I like writing documentation and keeping my codebases fairly organized so I will be updating this README as I'm working on it :-) 
+Hi welcome to the repo for my personal portfolio website! I designed the website in advance and now I'm going to build it using React. (High fidelity mockup designed using Adobe Xd.) I like writing documentation and keeping my codebases fairly organized so I will be updating this README as I'm working on it :-) Technologies I decided to stop using have a <strike> strike </strike> through them for my own reference.
 
-
+<br/>
 <h1> Technologies Used: </h1>
 <br/>
 <ul>
@@ -30,7 +26,7 @@ I like writing documentation and keeping my codebases fairly organized so I will
 <br/>
 <ul>
   <li>
-    ~~ react-router-dom ~~
+    <strike> react-router-dom </strike>
   </li>
 
   <li>
