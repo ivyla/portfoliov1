@@ -12,7 +12,7 @@ function Home() {
                 </div>
 
                 <div>
-                    <h3 className="default-header"> I like writing code & designing. </h3>
+                    <p className="default-header"> I like writing code & designing. </p>
 
                 </div>
 
@@ -46,7 +46,7 @@ function Home() {
                 {/* linkedin github email resume */}
 
             </div>
-        </div>
+        </div >
     )
 }
 
