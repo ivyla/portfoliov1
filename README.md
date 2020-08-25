@@ -30,19 +30,20 @@ I like writing documentation and keeping my codebases fairly organized so I will
 <br/>
 <ul>
   <li>
-    react-router-dom
+    ~~ react-router-dom ~~
   </li>
 
   <li>
-    Google Fonts
+  <b> Google Fonts API - </b> used Playfair Display and Poppins 
   </li>
+  
+  <li> Ant Design component library for icons </li>
   </ul>
   
 <br/>
 <h1> Backlog </h1>
 <ul>
-  <li> SCSS </li>
-  <li> Ant Design component library for icons </li>
+  <li> ~~ SCSS ~~</li>
   <li> Animations </li>
   <li> Toggle to pre-load animations </h1>
   </ul>
