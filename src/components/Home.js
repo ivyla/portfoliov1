@@ -8,17 +8,17 @@ function Home() {
         <div className="wrapper">
             <div className="content-home">
                 <div>
-                    <p className="default-title"> Hi, I'm Ivy. </p>
+                    <p className="default-title-center"> Hi, I'm Ivy. </p>
                 </div>
 
                 <div>
-                    <p className="default-header"> I like writing code & designing. </p>
+                    <p className="default-header-center"> I like writing code & designing. </p>
 
                 </div>
 
                 <div >
 
-                    <p className="default-description">
+                    <p className="default-description-center">
                         Nam ut dui nec ligula sagittis pharetra et sit
                         amet turpis. Cras malesuada, nulla ut convalli
                         maximus, metus mauris tempus elit, asceler

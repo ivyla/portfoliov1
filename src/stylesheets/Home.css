@@ -4,6 +4,34 @@
     align-items: center;
 }
 
+.default-title-center {
+    font-family: 'Playfair-Display';
+    font-weight: 900;
+    font-size: 440%;
+    margin: auto;
+    color: black;
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
+
+.default-header-center {
+    font-family: 'Poppins';
+    margin-bottom: 13px;
+    margin-top: 0px;
+    font-weight: 600;
+    color: #F55379;
+    font-size: 180%;
+    padding-bottom: 15px;
+}
+
+.default-description-center {
+    font-family: 'Poppins';
+    margin: auto;
+    width: 45%;
+    color: #888080;
+    padding-bottom: 15px;
+    
+}
 .content-home {
     width: 90vw;
     display: flex;
@@ -24,7 +52,7 @@
 
 .media-icons-container {
     padding-top: 15px;
-    padding-bottom: 90px;
+    padding-bottom: 60px;
 }
 #linkedin-icon:hover {
     color: #FEC08F;
