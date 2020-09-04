@@ -1,0 +1,38 @@
+.bar-container {
+    /* position: absolute; */
+    /* bottom: 10px; */
+    width: 100px;
+    height: 400px;
+    background: grey;
+    align-self: flex-end;
+}
+#smallbar-left {
+    position: absolute;
+    margin-top: 330px;
+    width: 10px;
+    /* display height: 120px */
+    height: 1px;
+    background: #989BE6;
+    /* transition-duration: 200ms; */
+    /* transform: scaleY(120); */
+    animation: 2s ease-in 0s 1 barRaise;
+
+}
+
+@keyframes barRaise {
+    0% {
+        
+        transform: scaleY(1);
+    }
+    100% {
+        transform-origin: bottom;
+        transform: scaleY(120);
+    }
+}
+/* #mediumbar-left {
+    background: #989BE6;
+}
+
+#largebar-left {
+
+} */

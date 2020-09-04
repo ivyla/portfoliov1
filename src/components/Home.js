@@ -2,10 +2,16 @@ import React from "react"
 import "../stylesheets/Theme.css"
 import "../stylesheets/Home.css"
 import { LinkedinFilled, GithubFilled, MailFilled, FileFilled, InstagramFilled } from '@ant-design/icons'
-
+import "../stylesheets/HomeGraphics.css"
 function Home() {
     return (
         <div className="wrapper">
+            {/* <div className="bar-container">
+                <div id="smallbar-left"> </div>
+                <div id="mediumbar-left"> </div>
+                <div id="largebar-left"> </div>
+
+            </div> */}
             <div className="content-home">
                 <div>
                     <p className="default-title-center"> Hi, I'm Ivy. </p>
@@ -23,7 +29,7 @@ function Home() {
                         amet turpis. Cras malesuada, nulla ut convalli
                         maximus, metus mauris tempus elit, asceler
                         isque mauris turpis sit amet tortor. Proin effic
-                pretium dolor at finibus. Morbi ultricies posue </p>
+                pretium dolor at finibus. Morbi ultricies  </p>
                 </div>
 
                 <div className="media-icons-container">
@@ -46,6 +52,7 @@ function Home() {
                 {/* linkedin github email resume */}
 
             </div>
+
         </div >
     )
 }

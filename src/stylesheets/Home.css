@@ -10,7 +10,7 @@
     font-size: 440%;
     margin: auto;
     color: black;
-    padding-top: 90px;
+    padding-top: 40px;
     padding-bottom: 15px;
 }
 
@@ -47,12 +47,12 @@
     margin-left: 15px;
     margin-right: 15px;
     transition-duration: 300ms;
-    padding-bottom: 90px;
+    /* padding-bottom: 90px; */
 }
 
 .media-icons-container {
     padding-top: 15px;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
 }
 #linkedin-icon:hover {
     color: #FEC08F;
@@ -66,3 +66,4 @@
 #instagram-icon:hover {
     color: #8ABADE;
 }
+

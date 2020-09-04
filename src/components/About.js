@@ -6,8 +6,8 @@ function About() {
     return (
         <div className="wrapper-about">
             <div className="content-about">
-                <div className="name-and-desc">
-                    <p className="default-title-about"> About Me </p>
+                <div className="name-and-desc-about">
+                    <p className="default-title"> About Me </p>
                     <p className="default-description-about"> Nam ut dui nec ligula sagittis pharetra et sit
                     amet turpis. Cras malesuada, nulla ut convalli
                     maximus, metus mauris tempus elit, ascelerd
@@ -19,8 +19,8 @@ function About() {
 
                 </div>
 
-                <div>
-                    <img src={portrait} style={{ width: '300px', height: '300px' }} />
+                <div className="about-image">
+                    <img src={portrait} />
                     {/* image */}
                 </div>
 
