@@ -1,7 +1,9 @@
 import React from "react";
 import "../stylesheets/Theme.css";
 import "../stylesheets/About.css";
-import portrait from "../assets/portrait.jpg"
+import portrait_alt from "../assets/portrait.jpg";
+import portrait from "../assets/191116.jpg";
+
 function About() {
     return (
         <div className="wrapper-about">
