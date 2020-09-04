@@ -16,7 +16,14 @@ Blue: #989BE6
 body, html {
     overflow-x: hidden;
 }
+/* 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
+/* taken from about or home? */
 .default-title {
     font-family: 'Playfair-Display';
     font-weight: 900;
@@ -26,4 +33,15 @@ body, html {
     text-align: center;
     color: black;
 
+}
+
+/* taken from home */
+.default-header {
+    font-family: 'Poppins';
+    margin-bottom: 13px;
+    margin-top: 0px;
+    font-weight: 600;
+    color: #F55379;
+    font-size: 180%;
+    padding-bottom: 15px;
 }
