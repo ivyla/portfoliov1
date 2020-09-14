@@ -1,28 +1,67 @@
 import React from "react"
 import { render } from "@testing-library/react"
 import "../stylesheets/Theme.css"
-import "../stylesheets/Projects.css"
 
-import { LinkOutlined } from "@ant-design/icons"
+import { LinkOutlined, CalendarFilled, CodeFilled, FileExcelFilled } from "@ant-design/icons"
+// inline stlying for this file to avoid confusing with Projects.css and Projects.js
+
+const projTitle = {
+    color: '#F55379',
+    fontFamily: "Poppins"
+}
+
+const projDate = {
+    color: '#888080',
+    fontFamily: "Poppins"
+}
+
+const projDesc = {
+    color: '#888080',
+    fontFamily: "Poppins"
+}
+
+const projTechnologies = {
+    color: '#888080',
+    fontFamily: "Poppins"
+}
+
+const projHeader = {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between'
+}
+
+const individualProject = {
+    display: 'flex',
+    flexDirection: 'column'
+}
 
 function Project(props) {
     return (
         <div>
-            <div className="project-content">
+            <div style={individualProject}>
                 {/* Project Name */}
-                <div className="default-header"> {props.project.name}
-                    {/* Project link?  */}
-                    {/* <a href={props.project.link} target="_blank" rel="noopener noreferrer" > <LinkOutlined /> </a> */}
+                <div style={projHeader}>
+                    {/* <p style={projTitle}> */}
+                    <div className="default-header">
+                        {props.project.name}
 
-                    {/* Active Data */}
-                    {props.project.startDate} - {props.project.endDate}
+                    </div>
+                    <div style={projDate}>
+                        {/* <span style={projDate}> */}
+                        {props.project.startDate} - {props.project.endDate}
+                        {/* </span> */}
+
+                    </div>
                 </div>
 
-                {/* Technologies */}
-                <p>Technologies: {props.project.technologies} </p>
-
-                {/* Brief project description */}
-                <p> {props.project.desc} </p>
+                <div>
+                    <p style={projDesc}> {props.project.desc} </p>
+                    <p style={projTechnologies}>
+                        <CodeFilled />
+                        {props.project.technologies} </p>
+                </div>
             </div>
 
         </div>

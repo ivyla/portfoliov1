@@ -38,10 +38,7 @@ body, html {
 /* taken from home */
 .default-header {
     font-family: 'Poppins';
-    margin-bottom: 13px;
-    margin-top: 0px;
     font-weight: 600;
     color: #F55379;
     font-size: 180%;
-    padding-bottom: 15px;
 }
