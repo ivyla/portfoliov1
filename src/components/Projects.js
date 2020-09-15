@@ -10,7 +10,6 @@ function Projects() {
     // insert map function that reads from ./data/ProjectsData directly
     const projects = ProjectsData.map((item) => <Project key={item.key} project={item} />)
     return (
-
         <div className="wrapper-projects" >
             <div className="default-title-projects">
                 Projects

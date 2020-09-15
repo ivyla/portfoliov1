@@ -49,8 +49,11 @@ function Project(props) {
 
                     </div>
                     <div style={projDate}>
+                        <i>
+                            {props.project.startDate} - {props.project.endDate}
+
+                        </i>
                         {/* <span style={projDate}> */}
-                        {props.project.startDate} - {props.project.endDate}
                         {/* </span> */}
 
                     </div>
@@ -59,8 +62,7 @@ function Project(props) {
                 <div>
                     <p style={projDesc}> {props.project.desc} </p>
                     <p style={projTechnologies}>
-                        <CodeFilled />
-                        {props.project.technologies} </p>
+                        <CodeFilled />   {props.project.technologies} </p>
                 </div>
             </div>
 
