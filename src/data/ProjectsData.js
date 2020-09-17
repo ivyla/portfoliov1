@@ -15,7 +15,7 @@ const ProjectsData = [
         startDate: "4/4/21",
         endDate: "5/5/21",
         link: "http://netflix.com",
-        technologies: "Flutter, Dart, React",
+        technologies: "Flutter, Firebase, Dart, React, Google Maps API",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure "
     },
 

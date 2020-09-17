@@ -34,7 +34,8 @@ const projHeader = {
 
 const individualProject = {
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    marginBottom: '2.5vw'
 }
 
 function Project(props) {

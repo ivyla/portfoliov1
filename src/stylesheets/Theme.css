@@ -16,12 +16,7 @@ Blue: #989BE6
 body, html {
     overflow-x: hidden;
 }
-/* 
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 
 /* taken from about or home? */
 .default-title {
