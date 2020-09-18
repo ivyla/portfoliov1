@@ -34,7 +34,10 @@ Hi welcome to the repo for my personal portfolio website! I designed the website
   </li>
   
   <li> Ant Design component library for icons </li>
+  
+  <li> React Helmet </h1>
   </ul>
+  
   
 <br/>
 <h1> Backlog </h1>
