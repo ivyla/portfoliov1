@@ -12,7 +12,7 @@ function Experience() {
     return (
         <div className="wrapper-experiences">
             <div>
-                <h1> Experience </h1>
+                <h1 className="default-title-experiences"> Experience </h1>
             </div>
 
             <div>

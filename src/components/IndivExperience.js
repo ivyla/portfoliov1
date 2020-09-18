@@ -1,6 +1,5 @@
 import React from "react"
 import "../stylesheets/Theme.css"
-
 // const experienceContainer = {
 //     display: 'flex',
 //     flexDirection: 'column',
@@ -8,16 +7,31 @@ import "../stylesheets/Theme.css"
 //     justifyContent: 'center'
 
 // }
+const title = {
+    fontFamily: 'Playfair-Display'
+}
+const details = {
+    color: '#888080',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    fontFamily: 'Poppins'
+
+}
+
+const desc = {
+    color: '#888080',
+    fontFamily: 'Poppins'
+}
 function IndivExperience(props) {
     return (
-        // <div style={experienceContainer}>
         <div>
-            <div>
-                {/* <div className="default-header"> */}
+            {/* <div> */}
+            <div className="default-header">
                 {props.item.workplace}
             </div >
 
-            <div>
+            <div style={details}>
                 <div>
                     {props.item.location}
                 </div>
@@ -27,7 +41,7 @@ function IndivExperience(props) {
                 </div>
             </div>
 
-            <div>
+            <div style={desc}>
                 {props.item.description}
             </div>
 
