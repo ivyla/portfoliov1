@@ -10,9 +10,9 @@
 }
 
 .navItem:hover{
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
     text-underline-position: below;
-
 }
 
 .navbar-content {

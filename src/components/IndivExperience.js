@@ -15,7 +15,9 @@ const details = {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    fontFamily: 'Poppins'
+    fontFamily: 'Poppins',
+    marginTop: '1em',
+    marginBottom: '1em'
 
 }
 
@@ -23,9 +25,17 @@ const desc = {
     color: '#888080',
     fontFamily: 'Poppins'
 }
+
+const wrapper = {
+    marginBottom: '2.5vw'
+}
+
+const spacing = {
+    marginBottom: '30px'
+}
 function IndivExperience(props) {
     return (
-        <div>
+        <div style={wrapper}>
             {/* <div> */}
             <div className="default-header">
                 {props.item.workplace}

@@ -2,7 +2,7 @@ import React from "react"
 import { render } from "@testing-library/react"
 import "../stylesheets/Theme.css"
 
-import { LinkOutlined, CalendarFilled, CodeFilled, FileExcelFilled } from "@ant-design/icons"
+import { LinkOutlined, CalendarFilled, CodeFilled, FileExcelFilled, TrophyTwoTone, StarTwoTone } from "@ant-design/icons"
 // inline stlying for this file to avoid confusing with Projects.css and Projects.js
 
 const projTitle = {
@@ -38,6 +38,10 @@ const individualProject = {
     marginBottom: '2.5vw'
 }
 
+const invisible = {
+    display: 'none'
+}
+
 function Project(props) {
     return (
         <div>
@@ -58,6 +62,10 @@ function Project(props) {
                         {/* </span> */}
 
                     </div>
+                </div>
+
+                <div style={invisible}>
+                    <StarTwoTone />
                 </div>
 
                 <div>
