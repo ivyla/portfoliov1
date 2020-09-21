@@ -35,7 +35,9 @@ Hi welcome to the repo for my personal portfolio website! I designed the website
   
   <li> Ant Design component library for icons </li>
   
-  <li> React Helmet </h1>
+  <li> React Helmet </li>
+  
+  <li> React Transition Group </h1>
   </ul>
   
   
