@@ -1,12 +1,7 @@
 import React from "react"
 import "../stylesheets/Theme.css"
-// const experienceContainer = {
-//     display: 'flex',
-//     flexDirection: 'column',
-//     width: '50%',
-//     justifyContent: 'center'
+import LocationPin from "../assets/location.svg"
 
-// }
 const title = {
     fontFamily: 'Playfair-Display'
 }
@@ -17,7 +12,8 @@ const details = {
     justifyContent: 'space-between',
     fontFamily: 'Poppins',
     marginTop: '1em',
-    marginBottom: '1em'
+    marginBottom: '1em',
+    alignItems: 'center'
 
 }
 
@@ -33,6 +29,13 @@ const wrapper = {
 const spacing = {
     marginBottom: '30px'
 }
+
+const pinStyle = {
+    width: '12px',
+    height: '12px',
+    marginRight: '5.5px',
+
+}
 function IndivExperience(props) {
     return (
         <div style={wrapper}>
@@ -42,7 +45,9 @@ function IndivExperience(props) {
             </div >
 
             <div style={details}>
+
                 <div>
+                    <img src={LocationPin} style={pinStyle} />
                     {props.item.location}
                 </div>
 
