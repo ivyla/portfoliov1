@@ -14,6 +14,7 @@ import "../stylesheets/Navigation.css"
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { MenuOutlined } from '@ant-design/icons'
 
+import { CSSTransition, TransitionGroup } from "react-transition-group"
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 // Next time - work on getting a normal navbar to work, and then try to use it 
@@ -73,22 +74,35 @@ class Navigation extends React.Component {
                         </div>
                     </div>
                     {/* </header> */}
-                    <Switch>
-                        <Route path="/about">
-                            <About />
-                        </Route>
-                        <Route path="/projects">
-                            <Projects />
-                        </Route>
-                        <Route path="/experience">
-                            <Experience />
-                        </Route>
-                        <Route path="/">
-                            <Home />
-                        </Route>
-                    </Switch>
+                    <Route render={({ location }) => (
+                        < TransitionGroup >
+                            <CSSTransition
+                                key={location.key}
+                                timeout={500}
+                                classNames="fade">
+                                <Switch location={location}>
+                                    <Route path="/about">
+                                        <About />
+                                    </Route>
+                                    <Route path="/projects">
+                                        <Projects />
+                                    </Route>
+                                    <Route path="/experience">
+                                        <Experience />
+                                    </Route>
+                                    <Route path="/">
+                                        <Home />
+                                    </Route>
+                                </Switch>
+
+                            </CSSTransition>
+
+                        </TransitionGroup>
+                    )}>
+
+                    </Route>
                 </Router >
-            </div>
+            </div >
         )
 
     }

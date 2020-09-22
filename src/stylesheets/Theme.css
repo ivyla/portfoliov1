@@ -38,3 +38,27 @@ body, html {
     color: #F55379;
     font-size: 180%;
 }
+
+/* transition for the router */
+/* tutorial source: https://youtu.be/NUQkajBdnmQ  */
+
+.transition-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.fade-enter {
+opacity: 0;
+}
+.fade-enter-active {
+opacity: 1;
+transition: opacity 500ms ease-in;
+}
+.fade-exit {
+opacity: 1;
+}
+.fade-exit-active {
+opacity: 0;
+transition: opacity 500ms ease-out;
+}
