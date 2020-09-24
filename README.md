@@ -47,4 +47,5 @@ Hi welcome to the repo for my personal portfolio website! I designed the website
   <li> <strike> SCSS </strike> </li>
   <li> Animations </li>
   <li> Toggle to pre-load animations </h1>
+  <li> The Pose Library for animations https://popmotion.io/pose/ </h1>
   </ul>
