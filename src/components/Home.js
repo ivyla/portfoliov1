@@ -1,8 +1,9 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import "../stylesheets/Theme.css"
 import "../stylesheets/Home.css"
 import { LinkedinFilled, GithubFilled, MailFilled, FileFilled, InstagramFilled } from '@ant-design/icons'
 import "../stylesheets/HomeGraphics.css"
+import { CSSTransition, TransitionGroup } from "react-transition-group"
 
 function Home() {
     return (
