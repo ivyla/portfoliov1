@@ -14,24 +14,6 @@
     align-items: center;
 }
 
-/* .default-title-about {
-    font-family: 'Playfair-Display';
-    font-weight: 900;
-    font-size: 6.1vw;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    text-align: center;
-    color: black;
-
-}
-
-.default-description-about {
-    font-family: 'Poppins';
-    color: #888080;
-    /* width: 90%; */
-    /* font-size: 1.5vw;
-} */ 
-
 .about-image img {
 
     margin-top: 0.7rem;

@@ -20,11 +20,6 @@ const projDesc = {
     fontFamily: "Poppins"
 }
 
-const projTechnologies = {
-    color: '#888080',
-    fontFamily: "Poppins"
-}
-
 const projHeader = {
     display: 'flex',
     flexDirection: 'row',
@@ -42,7 +37,7 @@ const invisible = {
     display: 'none'
 }
 
-function Project(props) {
+function IndivProject(props) {
     return (
         <div>
             <div style={individualProject}>
@@ -68,9 +63,9 @@ function Project(props) {
                     <StarTwoTone />
                 </div>
 
-                <div>
-                    <p style={projDesc}> {props.project.desc} </p>
-                    <p style={projTechnologies}>
+                <div className="default-desc">
+                    <p > {props.project.desc} </p>
+                    <p>
                         <CodeFilled />   {props.project.technologies} </p>
                 </div>
             </div>
@@ -79,4 +74,4 @@ function Project(props) {
     )
 }
 
-export default Project
+export default IndivProject

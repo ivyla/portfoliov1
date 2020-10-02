@@ -36,3 +36,26 @@
 #largebar-left {
 
 } */
+
+
+/* Media Queries source:  */
+/* http://devfacts.com/media-queries-breakpoints-2020/ */
+@media (min-width: 320px) { 
+
+   
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) { 
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 992px) { 
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) { 
+
+}

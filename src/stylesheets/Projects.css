@@ -4,22 +4,34 @@
     justify-content: center;
     flex-direction: column;
     /* align-items: center; */
-    width: 60vw;
-    margin-left: 10.5vw;
-    margin-top: 4vw;
+    width: 75%;
+    /* margin-left: 10.5vw; */
+    /* margin-top: 4vw; */
 }
 
-.default-title-projects {
-    font-family: 'Playfair-Display';
-    font-weight: 900;
-    font-size: 5.7vw;
-    margin-top: 0px;
-    margin-bottom: 40px;
+.project-title {
     text-align: left;
-    color: black;
-    width: 100%;
-    text-shadow: 0px 3px 6px #d4d4d4;
+}
 
+
+/* Media Queries source:  */
+/* http://devfacts.com/media-queries-breakpoints-2020/ */
+@media (min-width: 320px) { 
+
+   
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) { 
 
 }
 
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 992px) { 
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) { 
+
+}
