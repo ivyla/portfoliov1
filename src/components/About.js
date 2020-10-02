@@ -10,15 +10,18 @@ function About() {
             <div className="wrapper-about">
                 <div className="content-about">
                     <div className="name-and-desc-about">
-                        <p className="default-title"> About Me </p>
-                        <p className="default-description-about"> Nam ut dui nec ligula sagittis pharetra et sit
-                        amet turpis. Cras malesuada, nulla ut convalli
-                        maximus, metus mauris tempus elit, ascelerd
-                        isque mauris turpis sit amet tortor. Proin effics
-                        pretium dolor at finibus. Morbi ultricies posues
-                        elit, asceler isque mauris turpis sit amet tortor.
-                        Proin effic pretium dolor at finibus. Morbi ultric.
-                </p>
+                        <div className="default-title">
+                            About Me
+                        </div>
+                        <div className="default-desc">
+                            Nam ut dui nec ligula sagittis pharetra et sit
+                            amet turpis. Cras malesuada, nulla ut convalli
+                            maximus, metus mauris tempus elit, ascelerd
+                            isque mauris turpis sit amet tortor. Proin effics
+                            pretium dolor at finibus. Morbi ultricies posues
+                            elit, asceler isque mauris turpis sit amet tortor.
+                            Proin effic pretium dolor at finibus. Morbi ultric.
+                        </div>
 
                     </div>
 

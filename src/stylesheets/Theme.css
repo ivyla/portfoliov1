@@ -13,11 +13,64 @@ Yellow: #FBE897
 Blue: #989BE6
 */
 
- /* Media Queries source:  */
+/* taken from about or home? */
+.default-title {
+    font-family: 'Playfair-Display';
+    font-weight: 900;
+    color: black;
+    font-size: 4rem;
+    /* font-size: 1vw; */
+    margin-bottom: 0.7rem; 
+    /* text-shadow: 0px 3px 6px #d4d4d4; */
+    
+}
+
+/* taken from home */
+.default-header {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #F55379;
+    font-size: 1.3rem;
+    margin-bottom: 0.7rem;
+    
+}
+
+.default-desc {
+    font-family: 'Poppins';
+    color: #888080;
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+}
+
+/* transition for the router */
+/* tutorial source: https://youtu.be/NUQkajBdnmQ  */
+
+.transition-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-out;
+}
+
+/* Media Queries source:  */
 /* http://devfacts.com/media-queries-breakpoints-2020/ */
 @media (min-width: 320px) { 
 
-    
+   
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -33,56 +86,4 @@ Blue: #989BE6
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) { 
 
-}
-/* taken from about or home? */
-.default-title {
-    font-family: 'Playfair-Display';
-    font-weight: 900;
-    color: black;
-    font-size: 3.4rem;
-    margin-bottom: 0.7rem; 
-    /* text-shadow: 0px 3px 6px #d4d4d4; */
-
-}
-
-/* taken from home */
-.default-header {
-    font-family: 'Poppins';
-    font-weight: 600;
-    color: #F55379;
-    font-size: 1.2rem;
-    margin-bottom: 0.7rem;
-
-}
-
-.default-desc {
-    font-family: 'Poppins';
-    color: #888080;
-    margin-bottom: 0.7rem;
-    font-size: 1rem;
-
-}
-
-/* transition for the router */
-/* tutorial source: https://youtu.be/NUQkajBdnmQ  */
-
-.transition-wrapper {
-    position: absolute;
-    left: 0;
-    right: 0;
-}
-
-.fade-enter {
-opacity: 0;
-}
-.fade-enter-active {
-opacity: 1;
-transition: opacity 300ms ease-in;
-}
-.fade-exit {
-opacity: 1;
-}
-.fade-exit-active {
-opacity: 0;
-transition: opacity 300ms ease-out;
 }

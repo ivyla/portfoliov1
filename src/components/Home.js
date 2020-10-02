@@ -20,13 +20,8 @@ function Home() {
 
                 </div>
 
-                <div className="default-desc-home">
-                    Nam ut dui nec ligula sagittis pharetra et sit
-                    amet turpis. Cras malesuada, nulla ut convalli
-                    maximus, metus mauris tempus elit, asceler
-                    isque mauris turpis sit amet tortor. Proin effic
-                    pretium dolor at finibus. Morbi ultricies. Proin effic
-                    pretium dolor at finibus. Morbi ultricies.
+                <div className="default-desc">
+                    Duis eu dui feugiat, placerat urna in, laoreet elit. Sed dignissim ligula mi, ut viverra est accumsan vitae. Nulla volutpat sit amet risus ac gravida. Quisque ante justo, suscipit vitae feugiat nec, mattis non nulla. Morbi pellentesque fringilla pulvinar.
                     {/* I'm a software developer currently focusing
                     on growing my skills in front end and fullstack technologies.
                     I strive to create engaging and meaningful
