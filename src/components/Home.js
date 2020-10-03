@@ -12,11 +12,11 @@ function Home() {
 
             <div className="content-home">
                 <div className="default-title">
-                    Hi, I'm Ivy.
+                    Hi, I'm Ivy!
                 </div>
 
                 <div className="default-header">
-                    I like writing code & designing.
+                    I create & develop software.
 
                 </div>
 

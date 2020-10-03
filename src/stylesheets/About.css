@@ -15,10 +15,14 @@
 }
 
 .about-image img {
-
-    margin-top: 0.7rem;
+    display: block;
+    width: 99.9%;
+    height: 99.9%;
+    margin: auto;
+    padding-top: 0.7rem;
     border-radius: 2%;
 }
+
 
 @media (min-width: 320px) { 
     .content-about {
@@ -26,12 +30,6 @@
         width: 90%;
     }
    
-    .about-image img {
-        /* width: 85vw; */
-        /* height: 85vw; */
-        width: 95%;
-        height: 95%;
-    }
 }
 
 /* Small devices (landscape phones, less than 768px) */

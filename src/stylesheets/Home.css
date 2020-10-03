@@ -6,7 +6,7 @@
 }
 
 .content-home {
-    width: 95%;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -28,7 +28,7 @@
 
 .media-icons {
     color: #888080;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-left: 15px;
     margin-right: 15px;
     transition-duration: 300ms;

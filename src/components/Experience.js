@@ -16,11 +16,10 @@ function Experience() {
         <div className="transition-wrapper">
 
             <div className="wrapper-experiences">
-                <div>
+                <div className="experience-content">
                     <div className="default-title">
                         <div className="title-padding-center">
                             Experience
-
                         </div>
                     </div>
                 </div>
