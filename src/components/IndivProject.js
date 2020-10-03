@@ -23,7 +23,7 @@ function IndivProject(props) {
                     </div>
 
                     {/* project date */}
-                    <div>
+                    <div className="default-desc">
                         <i>
                             {props.project.startDate} - {props.project.endDate}
 

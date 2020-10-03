@@ -32,7 +32,7 @@ Blue: #989BE6
     font-family: 'Poppins';
     font-weight: 600;
     color: #F55379;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 0.7rem;
     
 }
@@ -70,14 +70,14 @@ Blue: #989BE6
 
 .title-padding-left {
     text-align: left;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .title-padding-center {
     text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Media Queries source:  */
