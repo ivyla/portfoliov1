@@ -11,8 +11,11 @@ function About() {
                 <div className="content-about">
                     {/* <div className="name-and-desc-about"> */}
                     <div className="default-title">
-                        About Me
+                        <div className="title-padding-center">
+                            About Me
+
                         </div>
+                    </div>
                     <div className="default-desc">
                         Nam ut dui nec ligula sagittis pharetra et sit
                         amet turpis. Cras malesuada, nulla ut convalli

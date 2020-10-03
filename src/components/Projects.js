@@ -15,9 +15,8 @@ function Projects() {
             <div className="wrapper-projects" >
                 <div className="content-projects">
                     <div className="default-title">
-                        <div className="project-title">
+                        <div className="title-padding-left">
                             Projects
-
                         </div>
                     </div>
 

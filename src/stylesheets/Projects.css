@@ -4,26 +4,29 @@
     justify-content: center;
     flex-direction: column;
     /* align-items: center; */
-    width: 75%;
-    /* margin-left: 10.5vw; */
+    width: 85%;
+    margin-left: 1.5rem;
     /* margin-top: 4vw; */
 }
 
-.project-title {
-    text-align: left;
+.project-metadata {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+
+    justify-content: space-between;
 }
-
-
 /* Media Queries source:  */
 /* http://devfacts.com/media-queries-breakpoints-2020/ */
-@media (min-width: 320px) { 
-
-   
+@media (min-width: 320px) {   
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 768px) { 
-
+    .project-metadata {
+        flex-direction: row;
+        align-items: center;
+    } 
 }
 
 /* Medium devices (tablets, less than 992px) */

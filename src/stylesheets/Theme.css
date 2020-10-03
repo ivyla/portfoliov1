@@ -68,6 +68,18 @@ Blue: #989BE6
     transition: opacity 300ms ease-out;
 }
 
+.title-padding-left {
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.title-padding-center {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 /* Media Queries source:  */
 /* http://devfacts.com/media-queries-breakpoints-2020/ */
 @media (min-width: 320px) { 

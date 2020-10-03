@@ -17,7 +17,12 @@ function Experience() {
 
             <div className="wrapper-experiences">
                 <div>
-                    <h1 className="default-title-experiences"> Experience </h1>
+                    <div className="default-title">
+                        <div className="title-padding-center">
+                            Experience
+
+                        </div>
+                    </div>
                 </div>
 
                 <div style={experienceContainer}>
