@@ -6,25 +6,28 @@ import ExperiencesData from "../data/ExperiencesData"
 import IndivExperience from "./IndivExperience"
 
 
-const experienceContainer = {
-    marginBottom: '45px'
-}
+// const experienceContainer = {
+//     marginBottom: '45px'
+// }
 
 function Experience() {
     const experiences = ExperiencesData.map((item) => <IndivExperience key={item.key} item={item} />)
     return (
         <div className="transition-wrapper">
 
-            <div className="wrapper-experiences">
+            <div className="wrapper-experience">
                 <div className="experience-content">
                     <div className="default-title">
                         <div className="title-padding-center">
-                            Experience
+                            <div className="experience-title">
+                                Experience
+
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div style={experienceContainer}>
+                <div>
                     {experiences}
                 </div>
             </div>

@@ -29,10 +29,7 @@ function About() {
                     {/* </div> */}
 
                     <div className="about-image">
-                        <div className="fuckyWucky">
-                            <img src={portrait} />
-
-                        </div>
+                        <img src={portrait} />
                         {/* image */}
                     </div>
 

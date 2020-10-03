@@ -1,26 +1,40 @@
 .wrapper-experience {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    width: 85%;
+    margin: auto;
 }
 
+.wrapper-indivExperience {
+    /* margin-top: 0.7rem; */
+    margin-bottom: 3.5rem;
+}
 .experience-content {
-    width: 60%;
+    /* width: 60%; */
+}
+
+.experience-title {
+    /* font-size: 16px; */
+    font-size: 3.2rem;
 }
 
 .experience-metadata {
     display: flex;
     flex-direction: row;
     align-items: normal;
-
     justify-content: space-between;
 }
 
 /* Media Queries source:  */
 /* http://devfacts.com/media-queries-breakpoints-2020/ */
 @media (min-width: 320px) { 
-
+    .experience-metadata {
+        flex-direction: column-reverse;
+        justify-content: normal;
+        text-align: center;
+    }
    
 }
 

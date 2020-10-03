@@ -5,8 +5,8 @@ import "../stylesheets/Projects.css"
 import LocationPin from "../assets/location.svg"
 
 const pinStyle = {
-    width: '12px',
-    height: '12px',
+    width: '0.8rem',
+    height: '0.8rem',
     marginRight: '5.5px',
 }
 
