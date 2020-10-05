@@ -49,3 +49,8 @@ Hi welcome to the repo for my personal portfolio website! I designed the website
   <li> Toggle to pre-load animations </h1>
   <li> The Pose Library for animations https://popmotion.io/pose/ </h1>
   </ul>
+  
+  <h1> Known Issues </h1>
+  <ul>
+    <li> On screens with a height < 230 px or width < 200 px, the font on the home screen will begin to overlap with the nav bar.</li> 
+  </ul>
