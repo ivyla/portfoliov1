@@ -35,17 +35,18 @@ class Navigation extends React.Component {
         return (
             <div className="navbar-wrapper">
                 <Router>
-                    <div className="position-nav">
+                    {/* <div className="position-nav"> */}
+                    <div className={this.state.menuPressed ? "position-nav-slideout" : "position-nav"}>
                         <div className="navbar-content">
                             {/* <header> */}
-                            <div>
+                            <div className="nav-icon">
                                 <NavLink className="navItem" id="icon-styling" to="/">
                                     il
-                            </NavLink>
+                                </NavLink>
 
                             </div>
 
-                            <div>
+                            <div className="nav-links">
                                 <NavLink className="navItem" to="/">
                                     <b>home </b>
                                 </NavLink>
@@ -58,20 +59,36 @@ class Navigation extends React.Component {
                                 <NavLink className="navItem" to="/experience">
                                     <b> experience </b>
                                 </NavLink>
+                            </div>
+                            <div className="hamburger-menu">
+                                <a href="#" onClick={this.handleClick}>
+                                    <MenuOutlined style={{
+                                        color: 'white',
+                                        float: 'right',
+                                        fontSize: '20px'
+                                    }} />
+                                </a>
 
                             </div>
                         </div>
 
-                        <div className="hamburgermenu">
-                            <a href="#" onClick={this.handleClick}>
-                                <MenuOutlined style={{
-                                    color: 'white',
-                                    float: 'right',
-                                    fontSize: '20px'
-                                }} />
-                            </a>
-
+                        <div className="slideout">
+                            <div className="nav-links-slideout" style={this.state.menuPressed ? { display: 'flex', flexDirection: 'column' } : { display: 'none' }}>
+                                <NavLink className="navItem" to="/">
+                                    <b>home </b>
+                                </NavLink>
+                                <NavLink className="navItem" to="/about">
+                                    <b>about</b>
+                                </NavLink>
+                                <NavLink className="navItem" to="/projects">
+                                    <b>projects</b>
+                                </NavLink>
+                                <NavLink className="navItem" to="/experience">
+                                    <b> experience </b>
+                                </NavLink>
+                            </div>
                         </div>
+
                     </div>
                     {/* </header> */}
                     <Route render={({ location }) => (
