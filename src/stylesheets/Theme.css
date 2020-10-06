@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap');
 /* Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap');
+/* Leckerli for 'icon' */
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 /* Color Reference:
 Navbar (navy): #484874
 Header (pink): #F55379
@@ -18,7 +20,7 @@ Blue: #989BE6
     font-family: 'Playfair-Display';
     font-weight: 900;
     color: black;
-    font-size: 4rem;
+    font-size: 3rem;
     /* font-size: 1vw; */
     margin-bottom: 0.7rem; 
     margin-top: 0.7rem;
@@ -32,7 +34,7 @@ Blue: #989BE6
     font-family: 'Poppins';
     font-weight: 600;
     color: #F55379;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 0.7rem;
     
 }

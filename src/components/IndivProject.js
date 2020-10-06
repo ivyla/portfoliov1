@@ -6,7 +6,7 @@ import { LinkOutlined, CalendarFilled, CodeFilled, FileExcelFilled, TrophyTwoTon
 const individualProject = {
     display: 'flex',
     flexDirection: 'column',
-    marginBottom: '2.5vw'
+    marginBottom: '2.7vw'
 }
 
 
@@ -37,7 +37,7 @@ function IndivProject(props) {
                 {/* <StarTwoTone /> */}
 
                 <div className="default-desc">
-                    <p > {props.project.desc} </p>
+                    {props.project.desc}
                     <p>
                         <CodeFilled />   {props.project.technologies} </p>
                 </div>

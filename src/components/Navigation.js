@@ -15,14 +15,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { MenuOutlined } from '@ant-design/icons'
 
 import { CSSTransition, TransitionGroup } from "react-transition-group"
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
-// Next time - work on getting a normal navbar to work, and then try to use it 
-// as a router
-// resources:
-// https://react-bootstrap.github.io/components/navbar/#navbar-props
-// https://stackoverflow.com/questions/48330233/react-router-bootstrap-and-navbar-redirection
-// https://github.com/react-bootstrap/react-router-bootstrap
+import logo from "../assets/logo-main.png"
 class Navigation extends React.Component {
     constructor() {
         super()
@@ -48,18 +41,22 @@ class Navigation extends React.Component {
                         {/* <div className="navbar-content"> */}
                         <div className={this.state.menuPressed ? "navbar-content-mobile" : "navbar-content"}>
                             {/* <header> */}
+
+                            <NavLink className="navItem" id="icon-styling" to="/">
+                                <b> il </b>
+                            </NavLink>
                             <NavLink className="navItem" to="/">
-                                home
-                        </NavLink>
+                                <b>home </b>
+                            </NavLink>
                             <NavLink className="navItem" to="/about">
-                                about
-                        </NavLink>
+                                <b>about</b>
+                            </NavLink>
                             <NavLink className="navItem" to="/projects">
-                                projects
-                        </NavLink>
+                                <b>projects</b>
+                            </NavLink>
                             <NavLink className="navItem" to="/experience">
-                                experience
-                        </NavLink>
+                                <b> experience </b>
+                            </NavLink>
                         </div>
 
                         <div className="hamburgermenu">

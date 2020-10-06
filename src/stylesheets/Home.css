@@ -8,7 +8,8 @@
 .content-home {
     width: 90%;
     display: flex;
-    justify-content: center;
+    /* for some reason this justify-content is causing the overlap on the navbar */
+    /* justify-content: center; */
     flex-direction: column;
     text-align: center;
     height: 88vh;
@@ -72,13 +73,13 @@
         /* width: 95%; */
         /* max-width: 340px; */
     
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (min-width: 768px) { 
-    .content-home {
-        width: 95%;
     }
+    
+    /* Small devices (landscape phones, less than 768px) */
+    @media (min-width: 768px) { 
+            .content-home {
+                width: 60%;
+            }
 
 
 }

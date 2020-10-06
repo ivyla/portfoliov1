@@ -14,10 +14,13 @@
     align-items: center;
 }
 
+img {
+    max-width:100%;
+}
 .about-image img {
     display: block;
-    width: 99.9%;
-    height: 99.9%;
+    /* width: 99.9%;
+    height: 99.9%; */
     margin: auto;
     padding-top: 0.7rem;
     /* to match the margin top of the padding  (1.5 + 0.7( */
