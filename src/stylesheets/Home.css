@@ -9,7 +9,7 @@
     width: 90%;
     display: flex;
     /* for some reason this justify-content is causing the overlap on the navbar */
-    /* justify-content: center; */
+    justify-content: center;
     flex-direction: column;
     text-align: center;
     height: 88vh;

@@ -33,30 +33,33 @@ class Navigation extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="navbar-wrapper">
                 <Router>
-
-                    {/* <div className="navbar"> */}
-                    <div className={this.state.menuPressed ? "navbar-large" : "navbar"}>
-                        {/* <div className="navbar-content"> */}
-                        <div className={this.state.menuPressed ? "navbar-content-mobile" : "navbar-content"}>
+                    <div className="position-nav">
+                        <div className="navbar-content">
                             {/* <header> */}
+                            <div>
+                                <NavLink className="navItem" id="icon-styling" to="/">
+                                    il
+                            </NavLink>
 
-                            <NavLink className="navItem" id="icon-styling" to="/">
-                                <b> il </b>
-                            </NavLink>
-                            <NavLink className="navItem" to="/">
-                                <b>home </b>
-                            </NavLink>
-                            <NavLink className="navItem" to="/about">
-                                <b>about</b>
-                            </NavLink>
-                            <NavLink className="navItem" to="/projects">
-                                <b>projects</b>
-                            </NavLink>
-                            <NavLink className="navItem" to="/experience">
-                                <b> experience </b>
-                            </NavLink>
+                            </div>
+
+                            <div>
+                                <NavLink className="navItem" to="/">
+                                    <b>home </b>
+                                </NavLink>
+                                <NavLink className="navItem" to="/about">
+                                    <b>about</b>
+                                </NavLink>
+                                <NavLink className="navItem" to="/projects">
+                                    <b>projects</b>
+                                </NavLink>
+                                <NavLink className="navItem" to="/experience">
+                                    <b> experience </b>
+                                </NavLink>
+
+                            </div>
                         </div>
 
                         <div className="hamburgermenu">
