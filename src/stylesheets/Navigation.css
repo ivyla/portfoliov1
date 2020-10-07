@@ -36,6 +36,7 @@
     max-width: 980px;
 }
 .navItem{
+    font-family: "Poppins";
     font-weight: 600;
     text-decoration: none;
     padding-left: 30px;

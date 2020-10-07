@@ -48,16 +48,24 @@ class Navigation extends React.Component {
 
                             <div className="nav-links">
                                 <NavLink className="navItem" to="/">
-                                    <b>home </b>
+                                    {/* <b> */}
+                                        home
+                                        {/* </b> */}
                                 </NavLink>
                                 <NavLink className="navItem" to="/about">
-                                    <b>about</b>
+                                    {/* <b> */}
+                                        about
+                                        {/* </b> */}
                                 </NavLink>
                                 <NavLink className="navItem" to="/projects">
-                                    <b>projects</b>
+                                    {/* <b> */}
+                                        projects
+                                        {/* </b> */}
                                 </NavLink>
                                 <NavLink className="navItem" to="/experience">
-                                    <b> experience </b>
+                                    {/* <b> */}
+                                         experience
+                                         {/* </b> */}
                                 </NavLink>
                             </div>
                             <div className="hamburger-menu">
@@ -75,16 +83,26 @@ class Navigation extends React.Component {
                         <div className="slideout">
                             <div className="nav-links-slideout" style={this.state.menuPressed ? { display: 'flex', flexDirection: 'column' } : { display: 'none' }}>
                                 <NavLink className="navItem" to="/">
-                                    <b>home </b>
+                                    <b>
+                                        home
+                                        </b>
                                 </NavLink>
                                 <NavLink className="navItem" to="/about">
-                                    <b>about</b>
+                                    <b>
+                                        about
+                                        </b>
                                 </NavLink>
                                 <NavLink className="navItem" to="/projects">
-                                    <b>projects</b>
+                                    <b>
+                                        projects
+                                        </b>
                                 </NavLink>
                                 <NavLink className="navItem" to="/experience">
-                                    <b> experience </b>
+                                    {/* <b> */}
+
+                                        experience
+
+                                         {/* </b> */}
                                 </NavLink>
                             </div>
                         </div>
