@@ -43,10 +43,12 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 992px) { 
-
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) { 
-
+    .wrapper-projects {
+        max-width: 800px;
+    }
+    
 }

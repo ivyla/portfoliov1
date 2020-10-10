@@ -36,6 +36,9 @@
         text-align: center;
     }
    
+    .wrapper-experience {
+        max-width: 600px;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -45,10 +48,15 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 992px) { 
-
+    .wrapper-experience {
+        max-width: 700px;
+    }
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 1200px) { 
+    .wrapper-experience {
+        max-width: 800px;
+    }
 
 }
