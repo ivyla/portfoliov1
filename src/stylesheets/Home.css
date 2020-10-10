@@ -41,16 +41,24 @@
     /* padding-bottom: 60px; */
 }
 #linkedin-icon:hover {
-    color: #FEC08F;
+    color: #F55379;
+    /* color: #FFBCCC; */
+    /* color: #FEC08F; */
 }
 #github-icon:hover {
-    color: #f8da62;
+    color: #F55379;
+    /* color: #FFBCCC; */
+    /* color: #f8da62; */
 }
 #email-icon:hover {
-    color: #A5DFB6;
+    color: #F55379;
+    /* color: #FFBCCC; */
+    /* color: #A5DFB6; */
 }
 #instagram-icon:hover {
-    color: #8ABADE;
+    color: #F55379;
+    /* color: #FFBCCC; */
+    /* color: #8ABADE; */
 }
 
 .my-node-enter {

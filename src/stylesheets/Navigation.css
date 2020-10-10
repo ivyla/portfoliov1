@@ -13,6 +13,7 @@
     padding-bottom: 10px;
     padding-top:10px;
     width: 100%;
+    box-shadow: 0 3px 6px #0000003d;
 }
 
 .position-nav-slideout {
@@ -49,8 +50,8 @@
 }
 
 .navItem:hover{
-    letter-spacing: 1.5px;
-    text-decoration: underline;
+    letter-spacing: 1.8px;
+    /* text-decoration: underline; */
 }
 
 #icon-styling {
@@ -62,7 +63,9 @@
 }
 
 #icon-styling:hover{
-    font-size: 1.6rem;
+    text-decoration: none;
+    letter-spacing: 4px;
+    /* font-size: 1.6rem; */
 }
 
 .nav-links-display {
