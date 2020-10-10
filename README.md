@@ -1,4 +1,4 @@
-# personalsitev2
+# ivyla.github.io
 Hi welcome to the repo for my personal portfolio website! I designed the website in advance and now I'm going to build it using React. (High fidelity mockup designed using Adobe Xd.) I like writing documentation and keeping my codebases fairly organized so I will be updating this README as I'm working on it :-) Technologies I decided to stop using have a <strike> strike </strike> through them for my own reference.
 
 <br/>
