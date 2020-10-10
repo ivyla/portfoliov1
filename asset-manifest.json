@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ivyla/ivyla.github.io/static/css/main.ef9e3096.chunk.css",
-    "main.js": "/ivyla/ivyla.github.io/static/js/main.8286f408.chunk.js",
-    "main.js.map": "/ivyla/ivyla.github.io/static/js/main.8286f408.chunk.js.map",
-    "runtime-main.js": "/ivyla/ivyla.github.io/static/js/runtime-main.ed257101.js",
-    "runtime-main.js.map": "/ivyla/ivyla.github.io/static/js/runtime-main.ed257101.js.map",
-    "static/js/2.82161767.chunk.js": "/ivyla/ivyla.github.io/static/js/2.82161767.chunk.js",
-    "static/js/2.82161767.chunk.js.map": "/ivyla/ivyla.github.io/static/js/2.82161767.chunk.js.map",
-    "index.html": "/ivyla/ivyla.github.io/index.html",
-    "precache-manifest.e4455e5d9505514db2a589c6ba0dfa05.js": "/ivyla/ivyla.github.io/precache-manifest.e4455e5d9505514db2a589c6ba0dfa05.js",
-    "service-worker.js": "/ivyla/ivyla.github.io/service-worker.js",
-    "static/css/main.ef9e3096.chunk.css.map": "/ivyla/ivyla.github.io/static/css/main.ef9e3096.chunk.css.map",
-    "static/js/2.82161767.chunk.js.LICENSE.txt": "/ivyla/ivyla.github.io/static/js/2.82161767.chunk.js.LICENSE.txt",
-    "static/media/191116.jpg": "/ivyla/ivyla.github.io/static/media/191116.8dca98dd.jpg",
-    "static/media/favicon.ico": "/ivyla/ivyla.github.io/static/media/favicon.f372ddd5.ico",
-    "static/media/location.svg": "/ivyla/ivyla.github.io/static/media/location.d8450c0b.svg",
-    "static/media/logo-main.png": "/ivyla/ivyla.github.io/static/media/logo-main.54cebee3.png",
-    "static/media/logo.svg": "/ivyla/ivyla.github.io/static/media/logo.ee7cd8ed.svg",
-    "static/media/portrait.jpg": "/ivyla/ivyla.github.io/static/media/portrait.7a40e5dc.jpg"
+    "main.css": "/ivyla.github.io/static/css/main.ef9e3096.chunk.css",
+    "main.js": "/ivyla.github.io/static/js/main.e9ed82f1.chunk.js",
+    "main.js.map": "/ivyla.github.io/static/js/main.e9ed82f1.chunk.js.map",
+    "runtime-main.js": "/ivyla.github.io/static/js/runtime-main.9609f18d.js",
+    "runtime-main.js.map": "/ivyla.github.io/static/js/runtime-main.9609f18d.js.map",
+    "static/js/2.5ce0e359.chunk.js": "/ivyla.github.io/static/js/2.5ce0e359.chunk.js",
+    "static/js/2.5ce0e359.chunk.js.map": "/ivyla.github.io/static/js/2.5ce0e359.chunk.js.map",
+    "index.html": "/ivyla.github.io/index.html",
+    "precache-manifest.3f7be3865d8a3dabf45c5d3194bb3a17.js": "/ivyla.github.io/precache-manifest.3f7be3865d8a3dabf45c5d3194bb3a17.js",
+    "service-worker.js": "/ivyla.github.io/service-worker.js",
+    "static/css/main.ef9e3096.chunk.css.map": "/ivyla.github.io/static/css/main.ef9e3096.chunk.css.map",
+    "static/js/2.5ce0e359.chunk.js.LICENSE.txt": "/ivyla.github.io/static/js/2.5ce0e359.chunk.js.LICENSE.txt",
+    "static/media/191116.jpg": "/ivyla.github.io/static/media/191116.8dca98dd.jpg",
+    "static/media/favicon.ico": "/ivyla.github.io/static/media/favicon.f372ddd5.ico",
+    "static/media/location.svg": "/ivyla.github.io/static/media/location.d8450c0b.svg",
+    "static/media/logo-main.png": "/ivyla.github.io/static/media/logo-main.54cebee3.png",
+    "static/media/logo.svg": "/ivyla.github.io/static/media/logo.ee7cd8ed.svg",
+    "static/media/portrait.jpg": "/ivyla.github.io/static/media/portrait.7a40e5dc.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed257101.js",
-    "static/js/2.82161767.chunk.js",
+    "static/js/runtime-main.9609f18d.js",
+    "static/js/2.5ce0e359.chunk.js",
     "static/css/main.ef9e3096.chunk.css",
-    "static/js/main.8286f408.chunk.js"
+    "static/js/main.e9ed82f1.chunk.js"
   ]
 }
