@@ -1,7 +1,7 @@
 {
-  "name": "personal-site",
+  "homepage": "https://ivyla.github.io/ivyla.github.io",
+  "name": "ivyla.github.io",
   "version": "0.1.0",
-  "homepage": "https://ivyla.github.io",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
