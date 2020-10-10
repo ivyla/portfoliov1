@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    padding-top: 1em;
 }
 
 .content-about {
@@ -14,8 +15,14 @@
     align-items: center;
 }
 
+.name-and-desc-about {
+    width: 100%;
+    align-self: flex-start;
+}
+
+
 img {
-    max-width:100%;
+    max-width:85%;
 }
 .about-image img {
     display: block;
@@ -44,11 +51,21 @@ img {
         flex-direction: row;
     }
 
+    .wrapper-about {
+        padding-top: 2em;
+    }
+
+    .about-image img {
+        margin-right: 0;
+    }
+
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 992px) { 
-
+    .content-about {
+        max-width: 1250px;
+    }
 }
 
 /* Large devices (desktops, less than 1200px) */

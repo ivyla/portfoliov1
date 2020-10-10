@@ -15,6 +15,9 @@ Yellow: #FBE897
 Blue: #989BE6
 */
 
+html {
+    overflow-x: hidden;
+}
 /* taken from about or home? */
 .default-title {
     font-family: 'Playfair-Display';
@@ -28,6 +31,8 @@ Blue: #989BE6
     /* text-shadow: 0px 3px 6px #d4d4d4; */
     
 }
+
+
 
 /* taken from home */
 .default-header {

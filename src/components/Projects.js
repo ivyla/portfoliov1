@@ -20,7 +20,7 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="projects-all">
                         {projects}
                     </div>
 

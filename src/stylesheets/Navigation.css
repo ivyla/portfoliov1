@@ -33,9 +33,10 @@
     align-items: center;
     margin: 0 auto;
     width: 88%;
-    max-width: 980px;
+    max-width: 1400px;
 }
 .navItem{
+    font-size: 0.85rem;
     font-family: "Poppins";
     font-weight: 600;
     text-decoration: none;

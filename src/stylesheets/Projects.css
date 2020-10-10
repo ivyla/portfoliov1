@@ -9,6 +9,10 @@
     /* margin-top: 4vw; */
 }
 
+/* .projects-all { 
+    width: 50%;
+} */
+
 .project-metadata {
     display: flex;
     flex-direction: column;
@@ -19,6 +23,9 @@
 /* Media Queries source:  */
 /* http://devfacts.com/media-queries-breakpoints-2020/ */
 @media (min-width: 320px) {   
+    .wrapper-projects {
+        max-width: 450px;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -27,6 +34,11 @@
         flex-direction: row;
         align-items: center;
     } 
+    
+    .wrapper-projects {
+        padding-left: 3.5rem;
+        max-width: 700px;
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */

@@ -1,6 +1,7 @@
 {
   "name": "personal-site",
   "version": "0.1.0",
+  "homepage": "https://ivyla.github.io",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
@@ -19,6 +20,8 @@
     "react-transition-group": "^4.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
