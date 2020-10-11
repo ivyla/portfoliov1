@@ -17,13 +17,12 @@ function About() {
                         </div>
                         </div>
                         <div className="default-desc">
-                            Nam ut dui nec ligula sagittis pharetra et sit
-                            amet turpis. Cras malesuada, nulla ut convalli
-                            maximus, metus mauris tempus elit, ascelerd
-                            isque mauris turpis sit amet tortor. Proin effics
-                            pretium dolor at finibus. Morbi ultricies posues
-                            elit, asceler isque mauris turpis sit amet tortor.
-                            Proin effic pretium dolor at finibus. Morbi ultric.
+                        From tweaking the HTML in my old MySpace profiles to tirelessly studying
+                         algorithms and computer architecture in college, I've always been fascinated with 
+                         technology and how it works behind the scenes. Currently, I'm seeking software 
+                         engineering roles, focusing on growing my Javascript skills, and dabbling in user 
+                         interface design. Aside from web development, I also love learning about computer
+                          networks, computer graphics, user experience design, and animation.
                         </div>
 
                     </div>

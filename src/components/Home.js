@@ -5,6 +5,11 @@ import { LinkedinFilled, GithubFilled, MailFilled, FileFilled, InstagramFilled }
 import "../stylesheets/HomeGraphics.css"
 import { CSSTransition, TransitionGroup } from "react-transition-group"
 
+const inlinePink = {
+    color: '#F55379',
+    fontWeight: '600'
+}
+
 function Home() {
     return (
 
@@ -12,22 +17,25 @@ function Home() {
 
             <div className="content-home">
                 <div className="default-title">
-                    Hi, I'm Ivy!
+                    Hi, I'm Ivy.
                 </div>
 
-                <div className="default-header">
+                {/* <div className="default-header">
                     I create & develop software.
 
-                </div>
+                </div> */}
 
                 <div className="default-desc">
-                    Duis eu dui feugiat, placerat urna in, laoreet elit. Sed dignissim ligula mi, ut viverra est accumsan vitae. Nulla volutpat sit amet risus ac gravida. Quisque ante justo, suscipit vitae feugiat nec, mattis non nulla. Morbi pellentesque fringilla pulvinar.
-                    {/* I'm a software developer currently focusing
-                    on growing my skills in front end and fullstack technologies.
+                    I'm a   &lt; <span style={inlinePink}>  software engineer </span>/&gt;  based in the Bay Area
+                    and a recent CS grad from UC Santa Cruz. 
                     I strive to create engaging and meaningful
-                    user experiences through software engineering
-                    and front end design; bringing any ideas to life
-                    from paper to screen. */}
+                    user experiences through 
+                    <span style ={inlinePink}> web development </span>
+                    and 
+                    <span style ={inlinePink}> front end design; </span> 
+                    bringing any ideas to life
+                    from paper to screen. 
+
                 </div>
 
                 <div className="media-icons-container">

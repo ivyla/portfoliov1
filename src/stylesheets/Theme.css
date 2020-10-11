@@ -46,7 +46,8 @@ html {
 
 .default-desc {
     font-family: 'Poppins';
-    color: #888080;
+    /* color: #888080; */
+    color: #7d7d7d;
     margin-bottom: 0.7rem;
     font-size: 1rem;
 }
