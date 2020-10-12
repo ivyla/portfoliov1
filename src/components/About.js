@@ -18,7 +18,7 @@ function About() {
                         </div>
                         <div className="default-desc">
                         From tweaking the HTML in my old MySpace profiles to tirelessly studying
-                         algorithms and computer architecture in college, I've always been fascinated with 
+                         algorithms and computer systems in college, I've always been fascinated with 
                          technology and how it works behind the scenes. Currently, I'm seeking software 
                          engineering roles, focusing on growing my Javascript skills, and dabbling in user 
                          interface design. Aside from web development, I also love learning about computer

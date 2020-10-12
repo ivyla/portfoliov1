@@ -2,44 +2,48 @@ import React from "react"
 import { render } from "@testing-library/react"
 import "../stylesheets/Theme.css"
 
-import { LinkOutlined, CalendarFilled, CodeFilled, FileExcelFilled, TrophyTwoTone, StarTwoTone } from "@ant-design/icons"
+import { LinkOutlined, CodeFilled, CodeTwoTone, FileExcelFilled, StarFilled, StarTwoTone, getTwoToneColor, setTwoToneColor} from "@ant-design/icons"
 const individualProject = {
     display: 'flex',
     flexDirection: 'column',
     marginBottom: '2.7vw'
 }
 
-
 function IndivProject(props) {
+    setTwoToneColor('#FAB82A');
+    const milestoneColor = getTwoToneColor(); 
+    setTwoToneColor('#989BE6');
+    const commandColor = getTwoToneColor();
     return (
         <div>
             <div style={individualProject}>
-                {/* Project Name */}
                 <div className="project-metadata">
-                    {/* project title */}
                     <div className="default-header">
                         {props.project.name}
-
                     </div>
 
-                    {/* project date */}
                     <div className="default-desc">
                         <i>
                             {props.project.startDate} - {props.project.endDate}
-
                         </i>
-                        {/* <span style={projDate}> */}
-                        {/* </span> */}
-
                     </div>
                 </div>
+                    <div className = "default-desc">
+                        <span style = {props.project.milestone ? {display: 'block'} : {display: 'none'}}>
+                            <StarFilled style={{color: '#FAB82A'}}/>
+                            {props.project.milestone}
+                        </span>
+                    
+                    </div> 
 
                 {/* <StarTwoTone /> */}
 
                 <div className="default-desc">
                     {props.project.desc}
                     <p>
-                        <CodeFilled />   {props.project.technologies} </p>
+                    <CodeFilled style={{color: '#6e6ec1', paddingRight: '0.35em'}} />
+                        {props.project.technologies}
+                    </p>
                 </div>
             </div>
 

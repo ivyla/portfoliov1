@@ -20,7 +20,7 @@ html {
 }
 /* taken from about or home? */
 .default-title {
-    font-family: 'Playfair-Display';
+    font-family: "Playfair-Display";
     font-weight: 900;
     color: black;
     font-size: 3rem;
@@ -36,7 +36,7 @@ html {
 
 /* taken from home */
 .default-header {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 600;
     color: #F55379;
     font-size: 1.2rem;
@@ -45,7 +45,7 @@ html {
 }
 
 .default-desc {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     /* color: #888080; */
     color: #7d7d7d;
     margin-bottom: 0.7rem;

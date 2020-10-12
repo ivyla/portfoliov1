@@ -2,21 +2,23 @@ const ProjectsData = [
     {
         key: 2,
         name: "Portfolio website",
-        startDate: "5/4/25",
-        endDate: "5/5/27",
+        startDate: "Jun. 2019",
+        endDate: "Present",
         link: "http://youtube.com",
         technologies: "HTML, CSS, Javascript, React",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure "
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure ",
+        milestone: ""
     },
 
     {
         key: 1,
         name: "Rent-A-Driveway",
-        startDate: "4/4/21",
-        endDate: "5/5/21",
+        startDate: "Sept. 2019",
+        endDate: "Present",
         link: "http://netflix.com",
-        technologies: "Flutter, Firebase, Dart, React, Google Maps API",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure "
+        technologies: "Flutter, Google Firebase, Google Maps API, React",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure ",
+        milestone: "  Senior Capstone Project"
     },
 
     {
@@ -26,7 +28,8 @@ const ProjectsData = [
         endDate: "5/5/27",
         link: "http://youtube.com",
         technologies: "HTML, CSS, Javascript, React, Google Maps API",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure "
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure ",
+        milestone: "  CruzHacks 2020 2nd Place Winner"
     },
     {
         key: 3,
@@ -35,7 +38,8 @@ const ProjectsData = [
         endDate: "5/5/27",
         link: "http://youtube.com",
         technologies: "C++, Socket Programming",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure "
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure ",
+        milestone: ""
     }
 ]
 
