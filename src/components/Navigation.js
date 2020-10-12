@@ -10,6 +10,8 @@ import Home from "./Home"
 import About from "./About"
 import Projects from "./Projects"
 import Experience from "./Experience"
+import Footer from "./Footer"
+
 import "../stylesheets/Navigation.css"
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { MenuOutlined } from '@ant-design/icons'

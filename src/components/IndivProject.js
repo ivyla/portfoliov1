@@ -24,7 +24,7 @@ function IndivProject(props) {
 
                     <div className="default-desc">
                         <i>
-                            {props.project.startDate} - {props.project.endDate}
+                            {props.project.startDate} {props.project.endDate ?  '-' : ' ' } {props.project.endDate}
                         </i>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ function IndivProject(props) {
                 <div className="default-desc">
                     {props.project.desc}
                     <p>
-                    <CodeFilled style={{color: '#6e6ec1', paddingRight: '0.35em'}} />
+                    <CodeFilled style={{color: 'rgb(125 125 158)', paddingRight: '0.35em'}} />
                         {props.project.technologies}
                     </p>
                 </div>

@@ -17,7 +17,7 @@ function Home() {
 
             <div className="content-home">
                 <div className="default-title">
-                    Hi there! I'm Ivy.
+                    Hi, I'm Ivy!
                 </div>
 
                 {/* <div className="default-header">

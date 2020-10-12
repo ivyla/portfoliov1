@@ -21,7 +21,7 @@ function About() {
                          algorithms and computer systems in college, I've always been fascinated with 
                          technology and how it works behind the scenes. Currently, I'm seeking software 
                          engineering roles, focusing on growing my Javascript skills, and dabbling in user 
-                         interface design. Aside from web development, I also love learning about computer
+                         interface design! Aside from web development, I also love learning about computer
                           networks, computer graphics, user experience design, and animation.
                         </div>
 

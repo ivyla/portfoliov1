@@ -1,3 +1,11 @@
+.site-footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #7d7d7d;
+    text-align: center;
+}
 .navbar-wrapper {
     display: flex;
     flex-direction: column;
@@ -61,6 +69,7 @@
     text-decoration: none;
     padding: 0 0 0 0;
 }
+
 
 #icon-styling:hover{
     text-decoration: none;

@@ -24,18 +24,18 @@ const ProjectsData = [
     {
         key: 3,
         name: "Clean This Space!",
-        startDate: "5/4/25",
-        endDate: "5/5/27",
+        startDate: "Jan. 2020",
+        endDate: "",
         link: "http://youtube.com",
         technologies: "HTML, CSS, Javascript, React, Google Maps API",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure ",
-        milestone: "  CruzHacks 2020 2nd Place Winner"
+        milestone: "  CruzHacks 2020 3rd Place Winner - Best Earth Hack"
     },
     {
         key: 3,
         name: "Multithreaded HTTP Server",
-        startDate: "5/4/25",
-        endDate: "5/5/27",
+        startDate: "Sept. 2019",
+        endDate: "Dec. 2019",
         link: "http://youtube.com",
         technologies: "C++, Socket Programming",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat.Duis aute irure ",
