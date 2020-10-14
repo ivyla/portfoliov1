@@ -1,7 +1,7 @@
 const ProjectsData = [
     {
         key: 2,
-        name: "Personal Website",
+        name: "ivyla.me (Personal Website)",
         startDate: "Jun. 2019",
         endDate: "Present",
         links: [{name: "Github  ", link: "https://github.com/ivyla/ivyla.github.io"}, {name: "Web Design  ", link: "https://xd.adobe.com/view/d66c3a23-b657-4cb1-7cec-432634c5a8f3-a05d/"}],
