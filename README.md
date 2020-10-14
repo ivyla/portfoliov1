@@ -1,16 +1,6 @@
 # ivyla.github.io
 Hi welcome to the repo for my personal portfolio website! I designed the website in Adobe Xd and built the site using React. 
 
-<br/>
-<h1> Technologies Used: </h1>
-<br/>
-<ul>
-  <li> HTML, CSS </li>
-  <li> Javascript </li>
-  <li> React </h1> 
-  </ul>
-
-
 <h1> Development environment </h1>
 <br/>
 <ul>
