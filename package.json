@@ -1,5 +1,5 @@
 {
-  "homepage": "http://www.ivyla.me",
+  "homepage": "http://ivyla.github.io/ivyla.github.io",
   "name": "ivyla.github.io",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
     "react-transition-group": "^4.4.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
