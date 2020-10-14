@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ivyla.github.io/static/css/main.042855e2.chunk.css",
-    "main.js": "/ivyla.github.io/static/js/main.2307394e.chunk.js",
-    "main.js.map": "/ivyla.github.io/static/js/main.2307394e.chunk.js.map",
+    "main.css": "/ivyla.github.io/static/css/main.c2390fbe.chunk.css",
+    "main.js": "/ivyla.github.io/static/js/main.2d8afc37.chunk.js",
+    "main.js.map": "/ivyla.github.io/static/js/main.2d8afc37.chunk.js.map",
     "runtime-main.js": "/ivyla.github.io/static/js/runtime-main.9609f18d.js",
     "runtime-main.js.map": "/ivyla.github.io/static/js/runtime-main.9609f18d.js.map",
-    "static/js/2.5be363bd.chunk.js": "/ivyla.github.io/static/js/2.5be363bd.chunk.js",
-    "static/js/2.5be363bd.chunk.js.map": "/ivyla.github.io/static/js/2.5be363bd.chunk.js.map",
+    "static/js/2.57cac548.chunk.js": "/ivyla.github.io/static/js/2.57cac548.chunk.js",
+    "static/js/2.57cac548.chunk.js.map": "/ivyla.github.io/static/js/2.57cac548.chunk.js.map",
     "index.html": "/ivyla.github.io/index.html",
-    "precache-manifest.71ffac793ca7c6780d64b377ccf8978f.js": "/ivyla.github.io/precache-manifest.71ffac793ca7c6780d64b377ccf8978f.js",
+    "precache-manifest.d0930066a97c4c8724062ba8fcf3b354.js": "/ivyla.github.io/precache-manifest.d0930066a97c4c8724062ba8fcf3b354.js",
     "service-worker.js": "/ivyla.github.io/service-worker.js",
-    "static/css/main.042855e2.chunk.css.map": "/ivyla.github.io/static/css/main.042855e2.chunk.css.map",
-    "static/js/2.5be363bd.chunk.js.LICENSE.txt": "/ivyla.github.io/static/js/2.5be363bd.chunk.js.LICENSE.txt",
+    "static/css/main.c2390fbe.chunk.css.map": "/ivyla.github.io/static/css/main.c2390fbe.chunk.css.map",
+    "static/js/2.57cac548.chunk.js.LICENSE.txt": "/ivyla.github.io/static/js/2.57cac548.chunk.js.LICENSE.txt",
     "static/media/191116.jpg": "/ivyla.github.io/static/media/191116.8dca98dd.jpg",
+    "static/media/alt_img.jpg": "/ivyla.github.io/static/media/alt_img.d9014bd0.jpg",
     "static/media/favicon.ico": "/ivyla.github.io/static/media/favicon.f372ddd5.ico",
     "static/media/location.svg": "/ivyla.github.io/static/media/location.d8450c0b.svg",
     "static/media/logo-main.png": "/ivyla.github.io/static/media/logo-main.54cebee3.png",
@@ -21,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9609f18d.js",
-    "static/js/2.5be363bd.chunk.js",
-    "static/css/main.042855e2.chunk.css",
-    "static/js/main.2307394e.chunk.js"
+    "static/js/2.57cac548.chunk.js",
+    "static/css/main.c2390fbe.chunk.css",
+    "static/js/main.2d8afc37.chunk.js"
   ]
 }
