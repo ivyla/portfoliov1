@@ -4,7 +4,7 @@ const ProjectsData = [
         name: "Personal Website",
         startDate: "Jun. 2019",
         endDate: "Present",
-        links: [{name: "Github  ", link: "https://github.com/ivyla/ivyla.github.io"}, {name: "Design  ", link: "https://xd.adobe.com/view/d66c3a23-b657-4cb1-7cec-432634c5a8f3-a05d/"}],
+        links: [{name: "Github  ", link: "https://github.com/ivyla/ivyla.github.io"}, {name: "Web Design  ", link: "https://xd.adobe.com/view/d66c3a23-b657-4cb1-7cec-432634c5a8f3-a05d/"}],
         technologies: "HTML, CSS, Javascript, React",
         desc: `I built & designed this website from scratch to showcase my front end skills and provide a central place for others to learn more about me! I utilized the React.js framework, created high fidelity mockups using Adobe Xd, and developed the site to be fully responsive. `,
         milestone: "",
@@ -13,12 +13,12 @@ const ProjectsData = [
 
     {
         key: 1,
-        name: "Rent-A-Driveway",
+        name: "Rent-A-Driveway (R.A.D)",
         startDate: "Sept. 2019",
         endDate: "Present",
         links: [{name: "Presentation", link: "https://docs.google.com/presentation/d/18z0slzJqbJsszi2f362sGEycCPYOOROr73kmdtLLrUk/edit?usp=sharing"}],
         technologies: "Flutter, Google Firebase, Google Maps API, Git, React",
-        desc: `R.A.D is a mobile application that aims to connect drivers to unused driveways by providing a service to post and rent listings. Throughout the year, my team and I consistently followed agile development practices, maintained a task board, and wrote detailed documentation on release planning. The following summer, I also designed and developed the information site for the app using React.js.`,
+        desc: `A mobile application that aims to connect drivers to unused driveways by providing a service to post and rent listings. Throughout the year, my team and I consistently followed agile development practices, maintained a task board, and wrote detailed documentation on release planning. The following summer, I also designed and developed the information site for the app using React.js.`,
         milestone: "  Senior Capstone Project",
         demo: ""
 
