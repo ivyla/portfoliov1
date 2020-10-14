@@ -57,11 +57,11 @@ function IndivProject(props) {
                     <CodeFilled style={{color: 'rgb(125 125 158)', paddingRight: '0.35em'}} />
                         {props.project.technologies}
                     </p>
-                </div>
-
                 <div style={props.project.links === undefined || props.project.links.length == 0 ? {display: 'none'} : {display: 'block'}}>
                     {projectLinks}
                 </div>
+                </div>
+
             </div>
 
         </div>
