@@ -16,9 +16,9 @@ const ProjectsData = [
         name: "Rent-A-Driveway (R.A.D)",
         startDate: "Sept. 2019",
         endDate: "Present",
-        links: [{name: "Presentation", link: "https://docs.google.com/presentation/d/18z0slzJqbJsszi2f362sGEycCPYOOROr73kmdtLLrUk/edit?usp=sharing"}],
+        links: [{name: "Presentation", link: "https://docs.google.com/presentation/d/18z0slzJqbJsszi2f362sGEycCPYOOROr73kmdtLLrUk/edit?usp=sharing"}, {name: "Poster", link: "https://docs.google.com/presentation/d/1TTCm3boRhFMU7ZIW47mZuz1chMMkxtGQ4POKX7DZcOE/edit?usp=sharing"}],
         technologies: "Flutter, Google Firebase, Google Maps API, Git, React",
-        desc: `A mobile application that aims to connect drivers to unused driveways by providing a service to post and rent listings. Throughout the year, my team and I consistently followed agile development practices, maintained a task board, and wrote detailed documentation on release planning. The following summer, I also designed and developed the information site for the app using React.js.`,
+        desc: `A student-led mobile application that connects drivers to unused driveways by providing a service to post and rent listings. Throughout the year, my team and I consistently followed agile development practices, maintained a task board, and wrote detailed documentation on release planning. The following summer, I also designed and developed the app's informational site using React.js.`,
         milestone: "  Senior Capstone Project",
         demo: ""
 

@@ -23,11 +23,16 @@
 .linkStyling:hover {
     text-decoration: underline;
 }
+
+
 /* Media Queries source:  */
 /* http://devfacts.com/media-queries-breakpoints-2020/ */
 @media (min-width: 320px) {   
     .wrapper-projects {
         max-width: 450px;
+    }
+    .linksContent {
+        margin-bottom: 25px;
     }
 }
 
@@ -41,6 +46,10 @@
     .wrapper-projects {
         padding-left: 3.5rem;
         max-width: 700px;
+    }
+
+    .linksContent {
+        margin-bottom: 0.7rem;
     }
 }
 
