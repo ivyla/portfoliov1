@@ -18,7 +18,7 @@ const ProjectsData = [
         endDate: "Present",
         links: [{name: "Presentation", link: "https://docs.google.com/presentation/d/18z0slzJqbJsszi2f362sGEycCPYOOROr73kmdtLLrUk/edit?usp=sharing"}, {name: "Poster", link: "https://docs.google.com/presentation/d/1TTCm3boRhFMU7ZIW47mZuz1chMMkxtGQ4POKX7DZcOE/edit?usp=sharing"}],
         technologies: "Flutter, Google Firebase, Google Maps API, Git, React",
-        desc: `A student-led mobile application that connects drivers to unused driveways by providing a service to post and rent listings. Throughout the year, my team and I consistently followed agile development practices, maintained a task board, and wrote detailed documentation on release planning. The following summer, I also designed and developed the app's informational site using React.js.`,
+        desc: `A student-led mobile application that connects drivers to unused driveways by providing a service to post and rent listings. Throughout the year, my team and I consistently followed agile development practices, maintained a task board, and wrote detailed documentation on release planning. I took on Full Stack development and developed the app's informational site the following summer using React.js.`,
         milestone: "  Senior Capstone Project",
         demo: ""
 
@@ -44,7 +44,7 @@ const ProjectsData = [
         endDate: "Dec. 2019",
         links: [],
         technologies: "C++, Socket Programming",
-        desc: "This server sends and responds HTTP requests with methods such as GET, POST, and PUT. It implements some key principles of computer systems design through cache coherency, thread synchronization, and abstraction via the client-server model. ",
+        desc: "This server sends and responds HTTP requests with methods such as GET, POST, and PUT. It implements some key principles of computer systems design through cache coherency, thread synchronization, and abstraction via the client-server model. Additional features include generated request logs and HTTP header parsing.",
         milestone: "",
         demo: ""
 
