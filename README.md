@@ -1,5 +1,5 @@
 # ivyla.github.io
-Hi welcome to the repo for my personal portfolio website! I designed the website in advance and now I'm going to build it using React. (High fidelity mockup designed using Adobe Xd.) I like writing documentation and keeping my codebases fairly organized so I will be updating this README as I'm working on it :-) Technologies I decided to stop using have a <strike> strike </strike> through them for my own reference.
+Hi welcome to the repo for my personal portfolio website! I designed the website in Adobe Xd and built the site using React. 
 
 <br/>
 <h1> Technologies Used: </h1>
@@ -26,14 +26,14 @@ Hi welcome to the repo for my personal portfolio website! I designed the website
 <br/>
 <ul>
   <li>
-    <strike> react-router-dom </strike>
+    react-router-dom
   </li>
 
   <li>
-  <b> Google Fonts API - </b> used Playfair Display and Poppins 
+   Google Fonts API
   </li>
   
-  <li> Ant Design component library for icons </li>
+  <li> Ant Design Icon library  </li>
   
   <li> React Helmet </li>
   
@@ -44,13 +44,13 @@ Hi welcome to the repo for my personal portfolio website! I designed the website
 <br/>
 <h1> Backlog </h1>
 <ul>
-  <li> <strike> SCSS </strike> </li>
   <li> Animations </li>
   <li> Toggle to pre-load animations </h1>
-  <li> The Pose Library for animations https://popmotion.io/pose/ </h1>
+  <li> Pose https://popmotion.io/pose/ </li>
   </ul>
   
-  <h1> Known Issues </h1>
+  <h1> Known Bugs </h1>
   <ul>
     <li> On screens with a height < 230 px or width < 200 px, the font on the home screen will begin to overlap with the nav bar.</li> 
+    <li> Desired title font does not load on mobile </li>
   </ul>
