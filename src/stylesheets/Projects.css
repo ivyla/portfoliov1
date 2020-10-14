@@ -20,6 +20,18 @@
 
     justify-content: space-between;
 }
+
+.linkStyling {
+    /* color: rgb(125, 125, 158); */
+    text-decoration: none;
+}
+
+.linkText {
+    /* text-decoration: underline; */
+}
+.linkStyling:hover {
+    text-decoration: underline;
+}
 /* Media Queries source:  */
 /* http://devfacts.com/media-queries-breakpoints-2020/ */
 @media (min-width: 320px) {   

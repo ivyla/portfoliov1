@@ -26,8 +26,8 @@ function Home() {
                 </div> */}
 
                 <div className="default-desc">
-                    I'm a   &lt; <span style={inlinePink}>  software engineer </span>/&gt;  based in the Bay Area
-                    and a recent CS grad from UC Santa Cruz. 
+                    I'm a   &lt; <span style={inlinePink}>  software engineer </span>/&gt;  based in San Francisco
+                    and a recent graduate from UC Santa Cruz where I studied Computer Science. 
                     I strive to create engaging and meaningful
                     user experiences through 
                     <span style ={inlinePink}> web development </span>
