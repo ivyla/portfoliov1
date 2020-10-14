@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5fcca7a0e00dc409b3c5fcc141136fe8",
+    "revision": "4594a86a892dde2218782abf2bbd2aa6",
     "url": "/ivyla.github.io/index.html"
   },
   {
-    "revision": "f9be81815c7048a94de9",
-    "url": "/ivyla.github.io/static/css/main.46c94545.chunk.css"
+    "revision": "cc2734fc5a303b3dc022",
+    "url": "/ivyla.github.io/static/css/main.0569fd24.chunk.css"
   },
   {
     "revision": "ad9a6f684fcdd4b130be",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ivyla.github.io/static/js/2.5be363bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9be81815c7048a94de9",
+    "revision": "cc2734fc5a303b3dc022",
     "url": "/ivyla.github.io/static/js/main.2307394e.chunk.js"
   },
   {
