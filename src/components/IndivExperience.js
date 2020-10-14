@@ -18,9 +18,11 @@ function IndivExperience(props) {
         <div className="wrapper-indivExperience">
             {/* <div> */}
             <div className="default-header" style={headerCenter}>
-                <a href={props.item.link} target="_blank" rel="noopener noreferrer" className="default-header" >
+                {/* <div> */}
+                {/* <a href={props.item.link} target="_blank" rel="noopener noreferrer" className="default-header" > */}
                     {props.item.workplace}
-                </a>
+                {/* </a> */}
+                {/* </div> */}
             </div >
 
             <div className="experience-metadata">
