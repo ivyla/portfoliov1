@@ -3,6 +3,7 @@ import "../stylesheets/Theme.css";
 import "../stylesheets/About.css";
 import portrait_alt from "../assets/portrait.jpg";
 import portrait from "../assets/191116.jpg";
+import portrait_aq from "../assets/alt_img.jpg";
 
 function About() {
     return (
@@ -11,10 +12,10 @@ function About() {
                 <div className="content-about">
                     <div className="name-and-desc-about">
                         <div className="default-title">
-                            <div className="title-padding-center">
+                            <span className="title-padding-center">
                                 About Me
 
-                        </div>
+                        </span>
                         </div>
                         <div className="default-desc">
                         From tweaking the HTML in my old MySpace profiles to tirelessly studying
@@ -28,7 +29,7 @@ function About() {
                     </div>
 
                     <div className="about-image">
-                        <img src={portrait} />
+                        <img src={portrait_aq} />
                         {/* image */}
                     </div>
 
