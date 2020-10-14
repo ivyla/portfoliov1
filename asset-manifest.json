@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ivyla.github.io/static/css/main.20b2873c.chunk.css",
+    "main.css": "/ivyla.github.io/static/css/main.b39b8a50.chunk.css",
     "main.js": "/ivyla.github.io/static/js/main.e16c594a.chunk.js",
     "main.js.map": "/ivyla.github.io/static/js/main.e16c594a.chunk.js.map",
     "runtime-main.js": "/ivyla.github.io/static/js/runtime-main.9609f18d.js",
@@ -8,9 +8,9 @@
     "static/js/2.5be363bd.chunk.js": "/ivyla.github.io/static/js/2.5be363bd.chunk.js",
     "static/js/2.5be363bd.chunk.js.map": "/ivyla.github.io/static/js/2.5be363bd.chunk.js.map",
     "index.html": "/ivyla.github.io/index.html",
-    "precache-manifest.88b8f4c7f90f4a4df28f0ceba3b49878.js": "/ivyla.github.io/precache-manifest.88b8f4c7f90f4a4df28f0ceba3b49878.js",
+    "precache-manifest.8cf8f87a9e5c6f1443c8d222076f6ed9.js": "/ivyla.github.io/precache-manifest.8cf8f87a9e5c6f1443c8d222076f6ed9.js",
     "service-worker.js": "/ivyla.github.io/service-worker.js",
-    "static/css/main.20b2873c.chunk.css.map": "/ivyla.github.io/static/css/main.20b2873c.chunk.css.map",
+    "static/css/main.b39b8a50.chunk.css.map": "/ivyla.github.io/static/css/main.b39b8a50.chunk.css.map",
     "static/js/2.5be363bd.chunk.js.LICENSE.txt": "/ivyla.github.io/static/js/2.5be363bd.chunk.js.LICENSE.txt",
     "static/media/191116.jpg": "/ivyla.github.io/static/media/191116.8dca98dd.jpg",
     "static/media/favicon.ico": "/ivyla.github.io/static/media/favicon.f372ddd5.ico",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.9609f18d.js",
     "static/js/2.5be363bd.chunk.js",
-    "static/css/main.20b2873c.chunk.css",
+    "static/css/main.b39b8a50.chunk.css",
     "static/js/main.e16c594a.chunk.js"
   ]
 }
