@@ -1,5 +1,5 @@
-# ivyla.github.io
-Hi welcome to the repo for my personal portfolio website! I designed the website in Adobe Xd and built the site using React. 
+# ivyla.me
+Hi thanks for visiting the repo for my personal site! I designed the website in Adobe Xd and built the site using React. 
 
 <h1> Development environment </h1>
 <br/>
