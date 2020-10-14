@@ -3,15 +3,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* align-items: center; */
     width: 85%;
     margin-left: 1.5rem;
-    /* margin-top: 4vw; */
 }
 
-/* .projects-all { 
-    width: 50%;
-} */
 
 .project-metadata {
     display: flex;
@@ -22,13 +17,9 @@
 }
 
 .linkStyling {
-    /* color: rgb(125, 125, 158); */
     text-decoration: none;
 }
 
-.linkText {
-    /* text-decoration: underline; */
-}
 .linkStyling:hover {
     text-decoration: underline;
 }
