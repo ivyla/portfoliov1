@@ -43,4 +43,5 @@ Hi thanks for visiting the repo for my personal site! I designed the website in 
   <ul>
     <li> On screens with a height < 230 px or width < 200 px, the font on the home screen will begin to overlap with the nav bar.</li> 
     <li> Desired title font does not load on mobile </li>
+  <li> On mobile, routing reacts to home when the hamburger menu is closed on about, projects, and experience pages</li>
   </ul>
