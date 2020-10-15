@@ -117,7 +117,7 @@ class Navigation extends React.Component {
                     <Route render={({ location }) => (
                         < TransitionGroup >
                             <CSSTransition
-                                key={location.key}
+                                key={location.pathname}
                                 timeout={500}
                                 classNames="fade">
                                 <Switch location={location}>
