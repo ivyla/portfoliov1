@@ -11,13 +11,13 @@ import About from "./About"
 import Projects from "./Projects"
 import Experience from "./Experience"
 import Footer from "./Footer"
-
 import "../stylesheets/Navigation.css"
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { MenuOutlined } from '@ant-design/icons'
-
+import { createBrowserHistory } from 'history';
 import { CSSTransition, TransitionGroup } from "react-transition-group"
 import logo from "../assets/logo-main.png"
+
 class Navigation extends React.Component {
     constructor() {
         super()
@@ -32,11 +32,13 @@ class Navigation extends React.Component {
         this.setState((prevState) => ({ menuPressed: !prevState.menuPressed }))
         console.log("clicked!" + this.state.menuPressed);
     }
-
+    
+    
     render() {
+        const browserHistory = createBrowserHistory();
         return (
             <div className="navbar-wrapper">
-                <Router>
+                <Router history={browserHistory}>
                     {/* <div className="position-nav"> */}
                     <div className={this.state.menuPressed ? "position-nav-slideout" : "position-nav"}>
                         <div className="navbar-content">
