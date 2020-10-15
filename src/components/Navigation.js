@@ -4,7 +4,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    NavLink
+    NavLink,
+    HashRouter
 } from "react-router-dom";
 import Home from "./Home"
 import About from "./About"
@@ -35,10 +36,10 @@ class Navigation extends React.Component {
     
     
     render() {
-        const browserHistory = createBrowserHistory();
+        // const browserHistory = createBrowserHistory();
         return (
             <div className="navbar-wrapper">
-                <Router history={browserHistory}>
+                <HashRouter>
                     {/* <div className="position-nav"> */}
                     <div className={this.state.menuPressed ? "position-nav-slideout" : "position-nav"}>
                         <div className="navbar-content">
@@ -140,7 +141,7 @@ class Navigation extends React.Component {
                     )}>
 
                     </Route>
-                </Router >
+                </HashRouter >
             </div >
         )
 
