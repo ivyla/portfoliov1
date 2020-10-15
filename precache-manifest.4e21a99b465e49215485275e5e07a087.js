@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "587b5655268385b95332f46726104938",
+    "revision": "0c63b3a73a89ab53b48e96c016848006",
     "url": "/ivyla.github.io/index.html"
   },
   {
-    "revision": "719f95becda6661c3d2d",
+    "revision": "c4b71defa7a8513e07e2",
     "url": "/ivyla.github.io/static/css/main.cb66e3b8.chunk.css"
   },
   {
-    "revision": "c147164a8c0a54f55f37",
-    "url": "/ivyla.github.io/static/js/2.6e4d61fd.chunk.js"
+    "revision": "5f27d938c07c488b54aa",
+    "url": "/ivyla.github.io/static/js/2.13a7e505.chunk.js"
   },
   {
     "revision": "f2efbe82e3ec6b086295954b52317f8c",
-    "url": "/ivyla.github.io/static/js/2.6e4d61fd.chunk.js.LICENSE.txt"
+    "url": "/ivyla.github.io/static/js/2.13a7e505.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "719f95becda6661c3d2d",
-    "url": "/ivyla.github.io/static/js/main.f236f65e.chunk.js"
+    "revision": "c4b71defa7a8513e07e2",
+    "url": "/ivyla.github.io/static/js/main.4ce617ed.chunk.js"
   },
   {
     "revision": "6e2d85f8a6df041aa9dd",

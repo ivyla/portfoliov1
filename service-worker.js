@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ivyla.github.io/precache-manifest.6f9ab8c806e830812619d7c429586977.js"
+  "/ivyla.github.io/precache-manifest.4e21a99b465e49215485275e5e07a087.js"
 );
 
 self.addEventListener('message', (event) => {
