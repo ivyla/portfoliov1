@@ -18,7 +18,7 @@ const ProjectsData = [
         endDate: "Present",
         links: [{name: "Presentation", link: "https://docs.google.com/presentation/d/18z0slzJqbJsszi2f362sGEycCPYOOROr73kmdtLLrUk/edit?usp=sharing"}, {name: "Poster", link: "https://docs.google.com/presentation/d/1TTCm3boRhFMU7ZIW47mZuz1chMMkxtGQ4POKX7DZcOE/edit?usp=sharing"}, {name:"Web Design", link: "https://xd.adobe.com/view/c32ba84b-85c6-4ca0-7f30-8774a0e431b6-b51a/"}],
         technologies: "Flutter, Google Firebase, Google Maps API, Git, React",
-        desc: `A student-led mobile application that connects drivers to unused driveways by providing a service to post and rent listings. Throughout the year, my team and I consistently followed agile development practices, maintained a task board, and wrote detailed documentation on release planning. I took on Full Stack development and developed the app's informational site the following summer using React.js.`,
+        desc: `A student-led mobile application that connects drivers to unused driveways by providing a service to post and rent listings. Throughout the year, my team and I consistently followed agile development practices, wrote detailed documentation on release planning, and worked closely with Google Maps API. I picked up the Flutter mobile framework to develop the UI and developed functions with Google Firebase for the back end. Additionally, I developed the app's informational site the following summer using React.js.`,
         milestone: "  Senior Capstone Project",
         demo: ""
 
